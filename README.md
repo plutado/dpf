@@ -2,7 +2,7 @@
 
 dpf
 ===
-This is a git repo for the personal website of David Plutado Fugate, which is currently development and will deployed at https://davidfugate.com.
+This is a git repo for the personal website of David Plutado Fugate, which is currently in heavy development and will deployed at https://davidfugate.com.
 
 
 ### Details
