@@ -15,10 +15,10 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 - Vagrant | http://vagrantup.com -- version 1.5.4
 
 <b>Step 2: </b>Clone the repo using command line interface (ie Terminal, Term2, ect) <br/>
-<pre>`git clone https://github.com/plutado/dpf.git`</pre>
+<pre><code>git clone https://github.com/plutado/dpf.git</code></pre>
 
 <b>Step 3: </b>Vagrant up <br/>
-<pre>`vagrant up`</pre>
+<pre><code>vagrant up</code></pre>
 
 ### Contributed Modules
 
