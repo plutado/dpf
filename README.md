@@ -29,6 +29,9 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 ### Custom Theme
 
 
+### Troubleshooting
+
+
 ### Credit
 
 
