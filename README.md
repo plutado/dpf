@@ -6,7 +6,7 @@ This is a git repo for the personal website of David Plutado Fugate, which is cu
 
 
 ### Details
-This site is built using drupal 7 (https://www.drupal.org).  More specifically, it's currently using version 7.31.  You must have a 64-bit system in order to properly install your local development environment, as the virtual machine running will be a _Ubuntu Precise 12.04 64-bit_ box.
+This site is built using drupal 7 (https://www.drupal.org).  More specifically, it's currently using version 7.31.  You must have a 64-bit system in order to properly install your local development environment, as the virtual machine running will be a _Ubuntu Precise 12.04 64-bit_ box.  This build leverages the Vagrant Drupal Development module (https://www.drupal.org/project/vdd) for building out the environment.
 
 
 ### Installation
@@ -20,8 +20,23 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <b>Step 3: </b>Vagrant up <br/>
 <pre><code>vagrant up</code></pre>
 
-### Contributed Modules
 
+### Contributed Modules
+- <a href="https://www.drupal.org/project/advanced_help">Advanced Help</a>
+- <a href="https://www.drupal.org/project/ctools">Chaos tool suite (ctools)</a>
+- <a href="https://www.drupal.org/project/devel">Devel</a>
+- <a href="https://www.drupal.org/project/ds">Display Suite</a>
+- <a href="https://www.drupal.org/project/entity">Entity API</a>
+- <a href="https://www.drupal.org/project/entityreference">Entity Reference</a>
+- <a href="https://www.drupal.org/project/features">Features</a>
+- <a href="https://www.drupal.org/project/fences">Fences</a>
+- <a href="https://www.drupal.org/project/globalredirect">Global Redirect</a>
+- <a href="https://www.drupal.org/project/libraries">Libraries API</a>
+- <a href="https://www.drupal.org/project/prev_next">Prev/Next API</a>
+- <a href="https://www.drupal.org/project/scald">Scald: Media Management</a>
+- <a href="https://www.drupal.org/project/search_krumo">Search Krumo</a>
+- <a href="https://www.drupal.org/project/views">Views</a>
+ 
 
 ### Custom Modules
 
