@@ -1,4 +1,4 @@
-<img alt="an egg slicer" src="/docs/hayaan-smirk.jpg" align="right" style="padding:12px;">
+<img alt="hayaan fugate" src="/docs/hayaan-smirk.jpg" align="right">
 
 dpf
 ===
