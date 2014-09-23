@@ -1,0 +1,42 @@
+{
+  "vm": {
+    "ip": "192.168.44.44",
+    "memory": "1024",
+    "synced_folders": [
+      {
+        "host_path": "data/",
+        "guest_path": "/var/www",
+        "type": "default"
+      }
+    ],
+    "forwarded_ports": []
+  },
+  "vdd": {
+    "sites": {
+      "dpf8": {
+        "account_name": "root",
+        "account_pass": "root",
+        "account_mail": "david@davidfugate.com",
+        "site_name": "DPF Drupal 8",
+        "site_mail": "david@davidfugate.com",
+        "vhost": {
+          "document_root": "dpf8",
+          "url": "dpf8.dev",
+          "alias": ["www.dpf8.dev"]
+        }
+      },
+      "dpf": {
+        "account_name": "root",
+        "account_pass": "root",
+        "account_mail": "david@davidfugate.com",
+        "site_name": "DPF",
+        "site_mail": "david@davidfugate.com",
+        "vhost": {
+          "document_root": "dpf",
+          "url": "dpf.local",
+          "alias": ["www.dpf.local"]
+        }
+      }      
+    }
+  }
+}
