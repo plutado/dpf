@@ -6,7 +6,7 @@ This is a git repo for the personal website of David Plutado Fugate, which is cu
 
 
 ### Details
-This site is built using drupal 7 (https://www.drupal.org).  More specifically, it's currently using version 7.31.  You must have a 64-bit system in order to properly install your local development environment, as the virtual machine running will be a Ubuntu Precise 12.04 64-bit box.
+This site is built using drupal 7 (https://www.drupal.org).  More specifically, it's currently using version 7.31.  You must have a 64-bit system in order to properly install your local development environment, as the virtual machine running will be a _Ubuntu Precise 12.04 64-bit_ box.
 
 
 ### Installation
