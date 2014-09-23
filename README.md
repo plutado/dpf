@@ -14,14 +14,11 @@ _Step 1:_ You will need to download and install a couple of software programs ne
 - VirtualBox | https://www.virtualbox.org/wiki/Downloads -- version 4.3.16
 - Vagrant | http://vagrantup.com -- version 1.5.4
 
-
 _Step 2:_ Clone the repo using command line interface (ie Terminal, Term2, ect) <br/>
-   `git clone https://github.com/plutado/dpf.git`
-
+<pre>`git clone https://github.com/plutado/dpf.git`</pre>
 
 _Step 3:_ Vagrant up <br/>
-   `vagrant up`
-
+<pre>`vagrant up`</pre>
 
 ### Contributed Modules
 
