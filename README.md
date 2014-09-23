@@ -15,10 +15,10 @@ _Step 1:_ You will need to download and install a couple of software programs ne
 - Vagrant | http://vagrantup.com -- version 1.5.4
 
 _Step 2:_ Clone the repo using command line interface (ie Terminal, Term2, ect)
-$```git clone https://github.com/plutado/dpf.git```
+<div>$```git clone https://github.com/plutado/dpf.git```</div>
 
 _Step 3:_ Vagrant up
-$```vagrant up```
+<div>$```vagrant up```</div>
 
 
 ### Contributed Modules
