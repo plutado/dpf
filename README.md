@@ -10,14 +10,14 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 
 
 ### Installation
-_Step 1:_ You will need to download and install a couple of software programs needed to run a local development environment on your computer.
+<b>Step 1: </b>You will need to download and install a couple of software programs needed to run a local development environment on your computer.
 - VirtualBox | https://www.virtualbox.org/wiki/Downloads -- version 4.3.16
 - Vagrant | http://vagrantup.com -- version 1.5.4
 
-_Step 2:_ Clone the repo using command line interface (ie Terminal, Term2, ect) <br/>
+<b>Step 2: </b>Clone the repo using command line interface (ie Terminal, Term2, ect) <br/>
 <pre>`git clone https://github.com/plutado/dpf.git`</pre>
 
-_Step 3:_ Vagrant up <br/>
+<b>Step 3: </b>Vagrant up <br/>
 <pre>`vagrant up`</pre>
 
 ### Contributed Modules
