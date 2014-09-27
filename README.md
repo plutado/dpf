@@ -50,6 +50,8 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 
 
 ### Custom Theme
+<pre><code>$ drush dl aurora</code></pre>
+<pre><code>$ yo aurora</code></pre>
 
 
 ### Troubleshooting
@@ -63,10 +65,7 @@ make sure node.js is installed on your host machine
 <pre><code>$ npm install -g yo generator-aurora</code></pre>
 <pre><code>$ npm install -g bower</code></pre>
 <pre><code>$ npm install -g gulp</code></pre>
-<pre><code>$ drush dl aurora</code></pre>
 
-<b>Step :</b> Change into theme directory
-<pre><code>$ yo aurora</code></pre>
 
 ### Coloring Book Rules
 
