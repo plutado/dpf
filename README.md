@@ -17,10 +17,21 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <b>Step 2: </b>Clone the repo using command line interface (ie Terminal, Term2, ect) <br/>
 <pre><code>git clone https://github.com/plutado/dpf.git</code></pre>
 
-<b>Step 3: </b>Vagrant up <br/>
+<b>Step: </b>Vagrant up <br/>
+<pre><code>cd vdd</code></pre>
 <pre><code>vagrant up</code></pre>
 
-<b>Step 4:</b> Login into vagrant box via command line
+make sure node.js is installed on your host machine
+
+<pre><code>npm install -g yo generator-aurora</code></pre>
+<pre><code>npm install -g bower</code></pre>
+<pre><code>npm install -g gulp</code></pre>
+<pre><code>drush dl aurora</code></pre>
+
+<b>Step :</b> Change into theme directory
+<pre><code></code></pre>
+
+<b>Step :</b> Login into vagrant box via command line
 <pre><code>vagrant ssh</code></pre>
 
 
@@ -53,6 +64,8 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 
 ### Troubleshooting
 
+Update the aurora generator: 
+<pre><code>npm update -g generator-aurora</code></pre>
 
 ### Coloring Book Rules
 
