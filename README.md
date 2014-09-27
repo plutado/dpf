@@ -2,7 +2,7 @@
 
 dpf
 ===
-This is a git repo for the personal website of David Plutado Fugate, which is currently in heavy development and will deployed at https://davidfugate.com.
+This is a drupal 7 based "coloring book" for the personal website of David Plutado Fugate, which is currently in heavy development and will deployed at https://davidfugate.com.  What is a coloring book?  A coloring book is simply an analogy for the patterns, features, and methodologies that will be used to implement the functionality for my personal site.  Once the book is in place, all that is left to do is to add my own color (ie. my personal content).
 
 
 ### Details
@@ -45,6 +45,9 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 
 
 ### Troubleshooting
+
+
+### Coloring Book Rules
 
 
 ### Credit
