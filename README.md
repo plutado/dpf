@@ -20,9 +20,8 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <b>Step 3: </b>Vagrant up <br/>
 <pre><code>vagrant up</code></pre>
 
-<b>Step 4: 
+<b>Step 4: Login into vagrant box via command line
 <pre><code>vagrant ssh</code></pre>
-<pre><code>./postinstall.sh</code></pre>
 
 
 <pre><code>cd sites/dpf</code></pre>
