@@ -1,6 +1,6 @@
 <img alt="hayaan fugate" src="/docs/hayaan-smirk.jpg" align="right">
 
-Coloring Book for davidfugate.com
+DPF's "Coloring Book"
 ===
 This is a drupal 7 based "coloring book" for the personal website of David Plutado Fugate, which is currently in heavy development and will deployed at https://davidfugate.com.  What is a coloring book?  A coloring book is simply an analogy for the patterns, features, and methodologies that will be used to implement the functionality for my personal site.  Once the coloring book is published (the site is live), all that is left to do is to add my own color (ie. my personal content).
 
