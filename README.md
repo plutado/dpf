@@ -39,6 +39,7 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 - <a href="https://www.drupal.org/project/fences">Fences</a>
 - <a href="https://www.drupal.org/project/globalredirect">Global Redirect</a>
 - <a href="https://www.drupal.org/project/libraries">Libraries API</a>
+- <a href="https://www.drupal.org/project/master">Master</a>
 - <a href="https://www.drupal.org/project/prev_next">Prev/Next API</a>
 - <a href="https://www.drupal.org/project/scald">Scald: Media Management</a>
 - <a href="https://www.drupal.org/project/search_krumo">Search Krumo</a>
