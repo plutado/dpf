@@ -36,6 +36,7 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 - <a href="https://www.drupal.org/project/ds">Display Suite</a>
 - <a href="https://www.drupal.org/project/entity">Entity API</a>
 - <a href="https://www.drupal.org/project/entityreference">Entity Reference</a>
+- <a href="https://www.drupal.org/project/entity_view_mode">Entity View Mode</a>
 - <a href="https://www.drupal.org/project/features">Features</a>
 - <a href="https://www.drupal.org/project/fences">Fences</a>
 - <a href="https://www.drupal.org/project/globalredirect">Global Redirect</a>
