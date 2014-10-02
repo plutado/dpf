@@ -40,8 +40,10 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 - <a href="https://www.drupal.org/project/features">Features</a>
 - <a href="https://www.drupal.org/project/fences">Fences</a>
 - <a href="https://www.drupal.org/project/globalredirect">Global Redirect</a>
+- <a href="https://www.drupal.org/project/html5_tools">HTML5 Tools</a>
 - <a href="https://www.drupal.org/project/jquery_update">jQuery Update</a>
 - <a href="https://www.drupal.org/project/libraries">Libraries API</a>
+- <a href="https://www.drupal.org/project/magic">Magic</a>
 - <a href="https://www.drupal.org/project/master">Master</a>
 - <a href="https://www.drupal.org/project/panels">Panels</a>
 - <a href="https://www.drupal.org/project/prev_next">Prev/Next API</a>
