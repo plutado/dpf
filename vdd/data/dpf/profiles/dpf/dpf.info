@@ -1,0 +1,26 @@
+name = dpf
+description = Profile for davidfugate.com
+version = 7.x-1.0
+core = 7.x
+
+; core dependencies
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = options
+dependencies[] = path
+dependencies[] = syslog
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = user
+
+files[] = dpf.install
+files[] = dpf.profile
