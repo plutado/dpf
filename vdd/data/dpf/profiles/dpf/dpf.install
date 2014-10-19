@@ -15,14 +15,14 @@
  *
  * @see http://drupal.org/node/1022020
  */
-function ti_lsg_ay_install() {
+function dpf_install() {
 
   // Only administrators can create accounts.
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
   $themes = array(
     'seven',
-    'dpf',
+    'plutado',
   );
   theme_enable($themes);
   variable_set('theme_default', 'dpf');
@@ -34,8 +34,6 @@ function ti_lsg_ay_install() {
   // Enable Clean URL's.
   variable_set('clean_url', 1);
 
-  // Set token_tweaks variable to help with token recursion.
-  variable_set('token_tree_recursion_limit', '2');
 }
 
 /**@}*/
