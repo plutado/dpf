@@ -30,8 +30,8 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <pre><code>$ drush @dpf si dpf -y</code></pre>
 
 <b>Step :</b> Visit http://dpf.local/user in browser <br>
-  username: root <br>
-  password: root <br>
+- username: root <br>
+- password: root <br>
 
 ### Contributed Modules
 - <a href="https://www.drupal.org/project/advanced_help">Advanced Help</a>
