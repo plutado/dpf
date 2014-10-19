@@ -6,7 +6,7 @@ This is a drupal 7 based "coloring book" for the personal website of David Pluta
 
 
 ### Details
-This site is built using drupal 7 (https://www.drupal.org).  More specifically, it's currently using version 7.31.  You must have a 64-bit system in order to properly install your local development environment, as the virtual machine running will be a _Ubuntu Precise 12.04 64-bit_ box.  This build leverages the Vagrant Drupal Development module (https://www.drupal.org/project/vdd) for building out the environment.
+This site is built using drupal 7 (https://www.drupal.org).  More specifically, it's currently using version 7.32.  You must have a 64-bit system in order to properly install your local development environment, as the virtual machine running will be a _Ubuntu Precise 12.04 64-bit_ box.  This build leverages the Vagrant Drupal Development module (https://www.drupal.org/project/vdd) for building out the environment.
 
 
 ### Installation
