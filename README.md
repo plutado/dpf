@@ -29,6 +29,9 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <pre><code>$ drush make dpf.make -y</code></pre>
 <pre><code>$ drush @dpf si dpf -y</code></pre>
 
+<b>Step :</b> Visit dpf.local in browser <br>
+
+
 ### Contributed Modules
 - <a href="https://www.drupal.org/project/advanced_help">Advanced Help</a>
 - <a href="https://www.drupal.org/project/bean">Bean</a>
