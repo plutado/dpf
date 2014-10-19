@@ -25,7 +25,7 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <pre><code>$ vagrant ssh</code></pre>
 
 <pre><code>$ cd sites/dpf</code></pre>
-<pre><code>$ drush make dpf.make</code></pre>
+<pre><code>$ drush make dpf.make -y</code></pre>
 
 
 ### Contributed Modules
