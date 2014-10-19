@@ -25,7 +25,7 @@ function dpf_install() {
     'plutado',
   );
   theme_enable($themes);
-  variable_set('theme_default', 'dpf');
+  variable_set('theme_default', 'plutado');
 
   // Enable the admin theme.
   variable_set('admin_theme', 'seven');

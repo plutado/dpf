@@ -182,12 +182,4 @@ function _dpf_module_batch_finished($success, $results) {
   }
 }
 
-/**
- * Installation task.
- * Revert some Features components that are not properly set with a module install.
- */
-function dpf_task_revert_features() {
-  features_revert(array('ti_lsg_ay_search' => array('apachesolr_environment')));
-}
-
 /**@}*/
