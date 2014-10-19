@@ -18,6 +18,7 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <pre><code>$ git clone https://github.com/plutado/dpf.git</code></pre>
 
 <b>Step: </b>Vagrant up <br/>
+<pre><code>$ cd dpf</code></pre>
 <pre><code>$ cd vdd</code></pre>
 <pre><code>$ vagrant up</code></pre>
 
