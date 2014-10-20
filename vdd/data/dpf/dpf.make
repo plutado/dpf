@@ -55,7 +55,7 @@ projects[scald][version] = 1.2
 projects[seckit][version] = 1.9
 projects[search_krumo][version] = 1.5
 projects[views][version] = 3.8
-projects[wysiwyg][version] = 2.2
+; projects[wysiwyg][version] = 2.2
 
 projects[aurora] = 3.x-dev
 

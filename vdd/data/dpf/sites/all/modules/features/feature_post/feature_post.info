@@ -1,4 +1,4 @@
-name = post
+name = Post
 description = a feature for the 'post' content type.
 core = 7.x
 package = Features
