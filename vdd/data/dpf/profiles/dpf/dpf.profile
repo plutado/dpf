@@ -91,6 +91,7 @@ function dpf_modules_array() {
     'bean',
     'blockify',
     'borealis',
+    'ckeditor',
     'ctools',
     'devel',
     'ds',

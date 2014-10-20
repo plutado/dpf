@@ -28,6 +28,7 @@ projects[advanced_help][version] = 1.1
 projects[bean][version] = 1.8
 projects[blockify][version] = 1.2
 projects[borealis][version] = 2.2
+projects[ckeditor][version] = 1.14
 projects[ctools][version] = 1.4
 projects[devel][version] = 1.5
 projects[ds][version] = 2.6
@@ -55,3 +56,35 @@ projects[seckit][version] = 1.9
 projects[search_krumo][version] = 1.5
 projects[views][version] = 3.8
 projects[wysiwyg][version] = 2.2
+
+
+
+; Libraries
+; --------
+
+; CKEditor 4.2.1
+libraries[ckeditor][download][type]= "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.1/ckeditor_4.2.1_full.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
+
+; modernizr
+libraries[html5shiv][download][type]= "get"
+libraries[html5shiv][download][url] = "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+libraries[html5shiv][directory_name] = "modernizr"
+libraries[html5shiv][destination] = "libraries"
+
+; plupload
+libraries[plupload][download][type]= "get"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.4.zip"
+libraries[plupload][directory_name] = "plupload"
+libraries[plupload][destination] = "libraries"
+
+; nicedit
+libraries[nicedit][download][type]= "get"
+libraries[nicedit][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.4.zip"
+libraries[nicedit][directory_name] = "plupload"
+libraries[nicedit][destination] = "libraries"
+
+
+
