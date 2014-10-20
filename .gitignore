@@ -26,6 +26,7 @@ vdd/data/*/profiles/standard/*
 vdd/data/*/profiles/testing/*
 vdd/data/*/scripts/*
 vdd/data/*/sites/all/modules/*
+vdd/data/*/sites/all/libraries/*
 vdd/data/*/sites/default/*
 vdd/data/*/themes/*
 vdd/data/dpf/sites/example.sites.php

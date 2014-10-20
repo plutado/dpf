@@ -57,7 +57,7 @@ projects[search_krumo][version] = 1.5
 projects[views][version] = 3.8
 projects[wysiwyg][version] = 2.2
 
-
+projects[aurora] = 3.x-dev
 
 ; Libraries
 ; --------
@@ -76,15 +76,8 @@ libraries[html5shiv][destination] = "libraries"
 
 ; plupload
 libraries[plupload][download][type]= "get"
-libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.4.zip"
+libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][directory_name] = "plupload"
 libraries[plupload][destination] = "libraries"
-
-; nicedit
-libraries[nicedit][download][type]= "get"
-libraries[nicedit][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.4.zip"
-libraries[nicedit][directory_name] = "plupload"
-libraries[nicedit][destination] = "libraries"
-
 
 
