@@ -25,7 +25,7 @@ vdd/data/*/profiles/minimal/*
 vdd/data/*/profiles/standard/*
 vdd/data/*/profiles/testing/*
 vdd/data/*/scripts/*
-vdd/data/*/sites/all/modules/*
+vdd/data/*/sites/all/modules/contrib/*
 vdd/data/*/sites/all/libraries/*
 vdd/data/*/sites/all/themes/contrib/*
 vdd/data/*/sites/default/*

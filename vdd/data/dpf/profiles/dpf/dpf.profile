@@ -119,6 +119,7 @@ function dpf_modules_array() {
     'seckit',
     'views',
     'wysiwyg',
+    'feature_post',
   );
 
   return $module_list;
