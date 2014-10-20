@@ -66,8 +66,10 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 - <a href="https://www.drupal.org/project/wysiwyg">WYSIWYG</a> 
 
 ### Libraries
-- Plupload
+- CKEditor
+- Modernizr
 - NiceEdit
+- Plupload
 
 ### Custom Modules
 
