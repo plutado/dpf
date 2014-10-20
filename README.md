@@ -37,6 +37,7 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 - <a href="https://www.drupal.org/project/bean">Bean</a>
 - <a href="https://www.drupal.org/project/blockify">Blockify</a>
 - <a href="https://www.drupal.org/project/borealis">Borealis Suite</a>
+- <a href="https://www.drupal.org/project/ckeditor">CKEditor</a>
 - <a href="https://www.drupal.org/project/ctools">Chaos tool suite (ctools)</a>
 - <a href="https://www.drupal.org/project/devel">Devel</a>
 - <a href="https://www.drupal.org/project/ds">Display Suite</a>
