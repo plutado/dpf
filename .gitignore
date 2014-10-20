@@ -28,6 +28,7 @@ vdd/data/*/scripts/*
 vdd/data/*/sites/all/modules/contrib/*
 vdd/data/*/sites/all/libraries/*
 vdd/data/*/sites/all/themes/contrib/*
+vdd/data/*/sites/all/themes/custom/*/.sass-cache/*
 vdd/data/*/sites/default/*
 vdd/data/*/themes/*
 vdd/data/dpf/sites/example.sites.php
