@@ -28,8 +28,8 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 <pre><code>$ drush make dpf.make -y</code></pre>
 <pre><code>$ drush @dpf si dpf -y</code></pre>
 <pre><code>$ cd sites/all/themes/plutado</code></pre>
-<pre><code>sudo gem install bundler</code></pre>
-<pre><code>bundle install</code></pre>
+<pre><code>$ sudo gem install bundler</code></pre>
+<pre><code>$ bundle install</code></pre>
 
 <b>Step :</b> Visit http://dpf.local/user in browser <br>
 - username: root <br>
