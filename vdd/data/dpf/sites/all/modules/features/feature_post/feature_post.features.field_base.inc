@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * post.features.field_base.inc
+ * feature_post.features.field_base.inc
  */
 
 /**

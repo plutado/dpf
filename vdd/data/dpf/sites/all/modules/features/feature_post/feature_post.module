@@ -1,7 +1,5 @@
 <?php
 /**
  * @file
- * Code for the post feature.
+ * Drupal needs this blank file.
  */
-
-include_once 'feature_post.features.inc';
