@@ -2,11 +2,7 @@
 
 /**
  * @file
- * Enables modules and site configuration for the ti_lsg_al site installation.
- *
- * \defgroup ti_lsg_ay AllYou.com Install Profile
- * \ingroup Profiles
- * \brief Provides installation profile for Allyou.com
+ * Enables modules and site configuration for the site installation.
  *
  * @{
  */
@@ -49,7 +45,7 @@ function dpf_install_tasks($install_state) {
 
 /**
  * Installation task.
- * Creates roles for the Allyou.com site.
+ * Creates roles for the site.
  */
 function dpf_task_create_roles() {
   // Create a default role for site administrators, with all available permissions assigned.
@@ -142,7 +138,7 @@ function dpf_modules_array() {
 
 /**
  * Installation task.
- * Enables all the modules that we need for the TI LSG Allyou.com site.
+ * Enables all the modules that we need for the site.
  */
 function dpf_task_enable_modules(&$install_state, $finished = '_ti_lsg_ay_module_batch_finished') {
   $batch = array();

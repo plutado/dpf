@@ -31,5 +31,5 @@ vdd/data/*/sites/all/themes/contrib/*
 vdd/data/*/sites/all/themes/custom/*/.sass-cache/*
 vdd/data/*/sites/default/*
 vdd/data/*/themes/*
-vdd/data/dpf/sites/example.sites.php
-vdd/data/dpf/sites/README.txt
+vdd/data/*/sites/example.sites.php
+vdd/data/*/sites/README.txt
