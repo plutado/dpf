@@ -59,6 +59,7 @@ This site is built using drupal 7 (https://www.drupal.org).  More specifically, 
 - <a href="https://www.drupal.org/project/master">Master</a>
 - <a href="https://www.drupal.org/project/modernizr">Modernizr</a>
 - <a href="https://www.drupal.org/project/panels">Panels</a>
+- <a href="https://www.drupal.org/project/pathauto">Pathauto</a>
 - <a href="https://www.drupal.org/project/prev_next">Prev/Next API</a>
 - <a href="https://www.drupal.org/project/plupload">Plupload integration</a>
 - <a href="https://www.drupal.org/project/restws">RESTful Web Services</a>
