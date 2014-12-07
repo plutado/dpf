@@ -1,0 +1,17 @@
+.post-tout-item {
+  position: relative;
+  margin-bottom: 6%;
+
+  .tout-details {
+    h3.tout-title {
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    p.tout-blurb {
+      margin: 0;
+    }
+
+  }
+}

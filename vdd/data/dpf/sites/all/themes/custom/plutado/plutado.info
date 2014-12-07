@@ -22,8 +22,31 @@ stylesheets[all][] = 'css/style.css'
 stylesheets[print][] = 'css/print.css'
 
 ; ========================================
+; Layouts
+; ========================================
+
+plugins[panels][layouts] = layouts
+api[page_manager][pages_default][version] = 1
+api[page_manager][pages_default][path] = pages
+
+; ========================================
+; Chrome Frame Options
+; ========================================
+
+settings[plutado_enable_chrome_frame] = 1
+settings[plutado_min_ie_support] = 9
+
+; ========================================
+; Miscelaneous Options
+; ========================================
+
+settings[plutado_html_tags] = 1
+settings[plutado_typekit_id] =
+
+; ========================================
 ; Scripts
 ; ========================================
+scripts[] = js/plutado.behaviors.js
 
 ; ========================================
 ; Modernizr

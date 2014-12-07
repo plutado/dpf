@@ -1,0 +1,13 @@
+section.home-page-video {
+  background: darken(darkgray, 65);
+  position: relative;
+  top: -10%;
+  padding: 3%;
+
+  .video-embed {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+}
+

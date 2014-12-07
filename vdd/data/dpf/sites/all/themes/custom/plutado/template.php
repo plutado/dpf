@@ -162,3 +162,24 @@ function plutado_js_alter(&$js) {
 
 }
 // */
+
+function plutado_preprocess_page (&$variables, $hook) {
+  unset($variables['page']['main']['block_id']);
+}
+
+function plutado_preprocess_node(&$variables) {
+}
+
+function plutado_preprocess_panels_pane(&$variables) {
+}
+
+function plutado_preprocess_entity(&$variables) {
+
+}
+
+function plutado_preprocess_field(&$variables) {
+
+}
+
+function plutado_preprocess_paragraphs_items(&$variables, $hook) {
+}

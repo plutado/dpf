@@ -1,0 +1,9 @@
+footer.site-footer {
+  background: #d3d3d3;
+  padding: 2%;
+  position: relative;
+  margin-bottom: -10%;
+  &.home {
+    top: -10%;
+  }
+}

@@ -1,0 +1,37 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+  src:url('../fonts/codropsicons/codropsicons.eot');
+  src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+  url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+  url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon/icomoon.eot?-ee0u0f');
+  src:url('../fonts/icomoon/icomoon.eot?#iefix-ee0u0f') format('embedded-opentype'),
+  url('../fonts/icomoon/icomoon.woff?-ee0u0f') format('woff'),
+  url('../fonts/icomoon/icomoon.ttf?-ee0u0f') format('truetype'),
+  url('../fonts/icomoon/icomoon.svg?-ee0u0f#icomoon') format('svg');
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table; content: '';
+}
+
+.clearfix:after { clear: both; }
+

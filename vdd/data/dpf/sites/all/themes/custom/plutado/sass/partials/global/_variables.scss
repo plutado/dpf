@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$breakpoint-to-ems: true;
+
+
+$home-post-item-grid-small: 320px;
+$home-post-item-grid-medium: 740px;
+$home-post-item-grid-large: 1200px;

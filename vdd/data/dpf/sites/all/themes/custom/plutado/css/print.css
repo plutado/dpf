@@ -1,9 +1,27 @@
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* line 1, ../../../../../../../../lib/gems/1.9.1/gems/toolkit-2.0.0/stylesheets/toolkit/_kickstart.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* line 11, ../../../../../../../../lib/gems/1.9.1/gems/toolkit-2.0.0/stylesheets/toolkit/_kickstart.scss */
 img, video {
   max-width: 100%;
   height: auto;
+}
+
+/* -------------------------- */
+/* -------------------------- */
+/* line 1, ../sass/partials/global/_variables.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 5, ../sass/partials/global/_variables.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
 }

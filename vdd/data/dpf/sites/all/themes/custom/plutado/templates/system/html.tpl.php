@@ -42,19 +42,18 @@
 ?><!DOCTYPE html>
 <!--[if lt IE <?php print $minie; ?> ]>    <html class="lt-ie<?php print $minie; ?> no-js" <?php print $html_attributes; ?>> <![endif]-->
 <!--[if gte IE <?php print $minie; ?>]><!--> <html class="no-js" <?php print $html_attributes; ?> <?php print $rdf_attributes; ?>> <!--<![endif]-->
+
 <head>
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>
-<body class="<?php print $classes; ?>" <?php print $body_attributes;?>>
-<div id="skip-link">
-  <a href="#main" class="element-invisible element-focusable" role="link"><?php print t('Skip to main content'); ?></a>
-</div>
+<body>
+
 <?php print $page_top; ?>
 <?php print $page; ?>
 <?php print $page_bottom; ?>
+
 </body>
 </html>

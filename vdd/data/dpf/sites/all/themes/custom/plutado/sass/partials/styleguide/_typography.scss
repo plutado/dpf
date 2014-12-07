@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300|Lora:400italic|Playfair+Display:700);
+
+body {
+  color: #69606b;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  outline: none;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #69606b;
+}

@@ -1,0 +1,10 @@
+/* -------------------------- */
+// Component Partials
+//
+// Your SMACSS Components go here
+// Build sub folders and partials in this folder, with everything being imported, in cascading order, into this file.
+/* -------------------------- */
+
+@import 'home-page-header';
+@import 'home-post-tout-item';
+@import 'home-page-video';

@@ -79,21 +79,9 @@
   </header>
 <?php endif; ?>
 
-<?php if ($page['main_prefix']): ?>
-  <?php print render($page['main_prefix']); ?>
-<?php endif; ?>
-
 <?php if ($page['content']): ?>
-  <main id="main" role="main">
-    <?php print render($page['content']); ?>
-  </main>
+  <?php print render($page['content']); ?>
 <?php endif; ?>
-
-
-<?php if ($page['main_suffix']): ?>
-  <?php print render($page['main_suffix']); ?>
-<?php endif; ?>
-
 
 <?php if ($page['footer']): ?>
   <footer id="footer" role="contentinfo">
