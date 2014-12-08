@@ -19,7 +19,7 @@
 ?>
 
 <?php if($pane->panel == 'header') : ?>
-  <div id="container" class="container intro-effect-fadeout">
+  <div id="container" class="container intro-effect-fadeout ha-waypoint" data-animate-down="ha-header-hide" data-animate-up="ha-header-hide">
     <header class="header">
 
       <?php if (!empty($content['field_header_image'][0]['#markup'])) : ?>
@@ -46,6 +46,7 @@
 
   <?php if (!path_is_admin(current_path())) : ?>
     <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/jquery.backstretch.min.js', array('type' => 'file', 'scope' => 'footer')); ?>
+    <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/waypoints.min.js', array('type' => 'file', 'scope' => 'footer')); ?>
 
     <script>
       jQuery(document).ready(function($) {

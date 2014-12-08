@@ -47,13 +47,34 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+  <style>@import url("http://dpf.local/sites/all/themes/custom/plutado/css/component.css");</style>
   <?php print $scripts; ?>
 </head>
 <body>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
 <?php print $page_top; ?>
 <?php print $page; ?>
 <?php print $page_bottom; ?>
+
+<script>
+  var $head = $( '#ha-header' );
+  $( '.ha-waypoint' ).each( function(i) {
+    var el = $( this ),
+      animClassDown = $( this ).data( 'animateDown' ),
+      animClassUp = $( this ).data( 'animateUp' );
+
+    $( this ).waypoint( function( direction ) {
+      if( direction === 'down' && animClassDown ) {
+        $head.attr('class', 'ha-header ' + animClassDown);
+      }
+      else if( direction === 'up' && animClassUp ){
+        $head.attr('class', 'ha-header ' + animClassUp);
+      }
+    }, { offset: '100%' } );
+  } );
+</script>
 
 </body>
 </html>
