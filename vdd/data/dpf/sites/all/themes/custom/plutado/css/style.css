@@ -1172,6 +1172,33 @@ button.trigger span::before {
     display: none;
   }
 }
+/* line 262, ../sass/partials/components/_home-page-header.scss */
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  -ms-transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+/* line 267, ../sass/partials/components/_home-page-header.scss */
+#nav-toggle span.active {
+  background-color: transparent;
+}
+/* line 269, ../sass/partials/components/_home-page-header.scss */
+#nav-toggle span.active:before, #nav-toggle span.active:after {
+  top: 0;
+}
+/* line 272, ../sass/partials/components/_home-page-header.scss */
+#nav-toggle span.active:before {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 277, ../sass/partials/components/_home-page-header.scss */
+#nav-toggle span.active:after {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
 /* line 1, ../sass/partials/components/_home-post-tout-item.scss */
 .post-tout-item {
   position: relative;

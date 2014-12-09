@@ -258,3 +258,26 @@ button.trigger span::before {
   }
 }
 
+#nav-toggle span {
+  &, &:before, &:after {
+    -ms-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  &.active {
+    background-color: transparent;
+    &:before, &:after {
+      top: 0;
+    }
+    &:before {
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &:after {
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+}

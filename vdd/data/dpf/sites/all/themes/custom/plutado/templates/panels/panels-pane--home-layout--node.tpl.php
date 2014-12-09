@@ -49,9 +49,15 @@
     <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/waypoints.min.js', array('type' => 'file', 'scope' => 'footer')); ?>
 
     <script>
-      jQuery(document).ready(function($) {
+      $(document).ready(function($) {
+
         image = ($('.header .bg-img img').attr('src'));
         $(".container").backstretch(image);
+
+        document.querySelector('#nav-toggle').addEventListener('click', function () {
+          this.classList.toggle('active');
+        });
+
       })
     </script>
 

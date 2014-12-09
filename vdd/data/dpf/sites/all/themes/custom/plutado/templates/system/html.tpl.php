@@ -49,10 +49,10 @@
   <?php print $styles; ?>
   <style>@import url("http://dpf.local/sites/all/themes/custom/plutado/css/component.css");</style>
   <?php print $scripts; ?>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
 </head>
 <body>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <?php print $page_top; ?>
 <?php print $page; ?>
@@ -62,17 +62,30 @@
   var $head = $( '#ha-header' );
   $( '.ha-waypoint' ).each( function(i) {
     var el = $( this ),
-      animClassDown = $( this ).data( 'animateDown' ),
-      animClassUp = $( this ).data( 'animateUp' );
+      animClassDown = el.data( 'animateDown' ),
+      animClassUp = el.data( 'animateUp' );
 
-    $( this ).waypoint( function( direction ) {
-      if( direction === 'down' && animClassDown ) {
+    el.waypoint( function( direction ) {
+      if( direction === 'down' && animClassDown) {
         $head.attr('class', 'ha-header ' + animClassDown);
+        $( ".menu-anchor").show();
+        $( ".menu-close").hide();
       }
       else if( direction === 'up' && animClassUp ){
         $head.attr('class', 'ha-header ' + animClassUp);
+        $( ".menu-anchor").show().removeClass('active');
+        $( ".menu-close").hide();
       }
     }, { offset: '100%' } );
+    $( ".menu-anchor" ).click(function() {
+      $head.attr('class', 'ha-header ha-header-subshow');
+      $( ".menu-close").show();
+    });
+    $( ".menu-close" ).click(function() {
+      $head.attr('class', 'ha-header ha-header-small');
+      $( ".menu-anchor").show().removeClass('active');
+      $( ".menu-close").hide();
+    });
   } );
 </script>
 

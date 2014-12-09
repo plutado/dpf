@@ -90,7 +90,7 @@
 	font-weight: 300;
 	font-size: 1em;
 	margin: 0;
-	padding: 0 1em 0 0;
+	padding: 0 0em 0 0;
 	color: #2d383f;
 	cursor: default;
 	height: 100%;
@@ -133,14 +133,36 @@
 	display: inline-block;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 700;
-    padding: 0.2em 0.4em;
-    margin: 0 0.4em 0;
-    font-size: 0.8em;
-    cursor: pointer;
-    color: #e74c3c;
-    outline: none;
-    text-decoration: none;
+	font-weight: 500;
+  padding: 0.2em 0em;
+  margin: 0 0.4em 0;
+  font-size: 0.8em;
+  cursor: pointer;
+  color: #e74c3c;
+  outline: none;
+  text-decoration: none;
+}
+
+.ha-header nav a.menu-anchor {
+  color: #000000;
+  font-size: 2.25em;
+  line-height: 0.5;
+  margin: 0;
+  padding: 4px 0;
+  font-weight: 500;
+}
+
+.ha-header nav a.menu-close {
+  color: #000000;
+  font-size: 2em;
+  height: 50px;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 75px;
+  display: none;
 }
 
 .ha-header nav a:hover {
@@ -153,12 +175,10 @@
 
 .ha-header .ha-header-front nav a:first-child,
 .ha-header .ha-header-front nav a:last-child {
-	border: 2px solid #e74c3c;
 }
 
 .ha-header .ha-header-front nav a:first-child:hover,
 .ha-header .ha-header-front nav a:last-child:hover {
-	border: 2px solid #bc3c2f;
 }
 
 /* Individual states */
@@ -197,7 +217,7 @@
 }
 
 .ha-header-subshow {
-	height: 220px;
+	height: 100px;
 }
 
 .ha-header-subshow .ha-header-bottom {
@@ -208,6 +228,7 @@
 	-moz-transform: rotateX(0deg);
 	transform: rotateX(0deg);
 	top: 50%;
+  height: 100%;
 }
 
 .ha-header-shrink {
@@ -344,5 +365,48 @@
 
 .ha-header-subfullscreen .ha-header-bottom nav a {
 	color: #fff;
+}
+
+
+
+#nav-toggle {}
+
+#nav-toggle {
+  cursor: pointer;
+  padding: 0px 35px 16px 0px;
+  margin: 20px 0;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
 }
 
