@@ -1,6 +1,10 @@
 .post-tout-item {
   position: relative;
-  margin-bottom: 6%;
+  margin-bottom: 8%;
+
+  img {
+    border: 1px inset #d3d3d3;
+  }
 
   .tout-details {
     h3.tout-title {

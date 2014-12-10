@@ -33,4 +33,47 @@ body {
   display: table; content: '';
 }
 
-.clearfix:after { clear: both; }
+.clearfix:after {
+  clear: both;
+}
+
+section.quotation {
+  blockquote {
+    border-left: 1px solid #ccc;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0 10% 5%;
+    padding: .5em 10px;
+    line-height: 1.2;
+    quotes:"\201C""\201D""\2018""\2019";
+
+    p {
+      display: block;
+      margin: -8% 0 2%;
+      padding: 0 10%;
+    }
+
+    &:before {
+      color:#ccc;
+      content:open-quote;
+      font-size:4em;
+      line-height:.1em;
+      margin-right:.25em;
+      vertical-align:-.4em;
+    }
+
+    .author {
+      color: grey;
+      font-size: 70%;
+      font-style: italic;
+      margin: 0 0;
+      padding: 0 10%;
+
+      &:before {
+        content: ' - ';
+      }
+    }
+  }
+}
+
+
