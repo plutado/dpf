@@ -281,7 +281,8 @@ aside {
       display: none;
     }
     &.show-unless-medium {
-      margin: 1.5em auto 1.5em;
+      background: lightgrey;
+      margin: 0em auto 1.5em;
     }
   }
 
@@ -289,8 +290,10 @@ aside {
     @include grid-span(12, 1);
     padding: 0% 3% 3% 0;
     &.hide-unless-medium {
+      background: lightgrey;
       display: block;
-      margin: 1em auto;
+      margin: 0 auto 1.5em;
+      padding: 0 1.5em;
     }
     &.show-unless-medium {
       display: none;
@@ -304,7 +307,11 @@ aside {
       display: none;
     }
     &.show-unless-medium {
+      background: lightgrey;
+      border-left: 1px solid #999;
       display: block;
+      margin: 0;
+      padding: 0 1.5% 4.25%;
     }
 
   }

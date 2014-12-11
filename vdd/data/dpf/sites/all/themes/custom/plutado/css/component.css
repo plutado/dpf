@@ -28,7 +28,7 @@
 }
 
 .ha-header-perspective > div {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
 	text-align: left;
 	padding: 0 2%;
 	height: 50%;
@@ -69,6 +69,7 @@
 	transition: top 0.5s;
 	position: absolute;
 	top: 0;
+  padding: 2% 0;
 }
 
 /* Justify inline-block elements (h1 on left side, nav on right) */
@@ -86,7 +87,7 @@
 .ha-header nav::before {
 	display: inline-block;
 	vertical-align: middle;
-	text-align: left;
+  text-align: center;
 }
 
 .ha-header h1 {
@@ -98,7 +99,7 @@
 	cursor: default;
 	height: 100%;
 	z-index: 1;
-  line-height: .5;
+  line-height: .8;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
@@ -108,7 +109,6 @@
 .ha-header h1::before,
 .ha-header nav::before {
 	content: '';
-	height: 100%;
 }
 
 .ha-header h1::after {

@@ -30,8 +30,6 @@
         <a>Mellifluous</a>
         <a>Erstwhile</a>
         <a>Wafture</a>
-        <a>Serendipity</a>
-        <a>Love</a>
       </nav>
     </div>
   </div>
@@ -53,10 +51,56 @@
     </div>
 
     <aside class="right-rail hide-unless-medium">
-      Right Rail<br>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis justo. Pellentesque id metus ex. In hac habitasse platea dictumst. Aenean varius tincidunt euismod. Curabitur vestibulum, erat quis laoreet porta, tortor elit ullamcorper lacus, eget maximus est dui vitae lectus. Nunc tortor sem, egestas vel vehicula sed, facilisis sed lorem. Nam hendrerit lacus mollis dui convallis, euismod posuere nulla sollicitudin. Suspendisse nec dolor quam.
+      <h3>Right Rail</h3>
 
-      Suspendisse fermentum erat ut euismod consectetur. Nulla facilisi. In id nisi ex. Ut quis tortor mi. Morbi iaculis augue justo. Donec a magna mattis, maximus odio at, facilisis risus. Nullam sagittis arcu ut mauris ultrices, ac sollicitudin sem elementum. Fusce ut erat ullamcorper, commodo neque ac, consectetur purus. Praesent et imperdiet mi, ut facilisis sapien. Nunc dignissim sem purus, a sollicitudin neque sollicitudin eget.
+      <div class="sidebar-post first">
+        <div class="sidebar-post-image">
+          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/tree.png" />
+        </div>
+        <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+          <h4>What I'm Currently Reading</h4>
+        </div>
+      </div>
+
+      <div class="sidebar-post second">
+        <div class="sidebar-post-image">
+          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/IMG_0695.png" />
+        </div>
+        <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+          <h4>What I'm Currently Reading</h4>
+        </div>
+      </div>
+
+      <div class="sidebar-post third">
+        <div class="sidebar-post-image">
+          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building.png" />
+        </div>
+        <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+          <h4>What I'm Currently Reading</h4>
+        </div>
+      </div>
+
+      <div class="sidebar-post fourth">
+        <div class="sidebar-post-image">
+          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building-01.png" />
+        </div>
+        <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+          <h4>What I'm Currently Reading</h4>
+        </div>
+      </div>
+
     </aside>
 
     <div class="article third">
@@ -70,10 +114,55 @@
   </div>
 
   <aside class="right-rail show-unless-medium">
-    Right Rail<br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis justo. Pellentesque id metus ex. In hac habitasse platea dictumst. Aenean varius tincidunt euismod. Curabitur vestibulum, erat quis laoreet porta, tortor elit ullamcorper lacus, eget maximus est dui vitae lectus. Nunc tortor sem, egestas vel vehicula sed, facilisis sed lorem. Nam hendrerit lacus mollis dui convallis, euismod posuere nulla sollicitudin. Suspendisse nec dolor quam.
+    <h3>Right Rail</h3>
 
-    Suspendisse fermentum erat ut euismod consectetur. Nulla facilisi. In id nisi ex. Ut quis tortor mi. Morbi iaculis augue justo. Donec a magna mattis, maximus odio at, facilisis risus. Nullam sagittis arcu ut mauris ultrices, ac sollicitudin sem elementum. Fusce ut erat ullamcorper, commodo neque ac, consectetur purus. Praesent et imperdiet mi, ut facilisis sapien. Nunc dignissim sem purus, a sollicitudin neque sollicitudin eget.
+    <div class="sidebar-post first">
+      <div class="sidebar-post-image">
+        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/tree.png" />
+      </div>
+      <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+        <h4>What I'm Currently Reading</h4>
+      </div>
+    </div>
+
+    <div class="sidebar-post second">
+      <div class="sidebar-post-image">
+        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/IMG_0695.png" />
+      </div>
+      <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+        <h4>What I'm Currently Reading</h4>
+      </div>
+    </div>
+
+    <div class="sidebar-post third">
+      <div class="sidebar-post-image">
+        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building.png" />
+      </div>
+      <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+        <h4>What I'm Currently Reading</h4>
+      </div>
+    </div>
+
+    <div class="sidebar-post fourth">
+      <div class="sidebar-post-image">
+        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building-01.png" />
+      </div>
+      <div class="sidebar-title-blurb">
+          <span class="sidebar-slug">
+            This Slug
+          </span>
+        <h4>What I'm Currently Reading</h4>
+      </div>
+    </div>
   </aside>
 
 </section>
@@ -121,6 +210,10 @@
     </p>
     <div class="author">Mother Teresa</div>
   </blockquote>
+</section>
+
+<section class="photo-masonry">
+
 </section>
 
 <footer class="site-footer">

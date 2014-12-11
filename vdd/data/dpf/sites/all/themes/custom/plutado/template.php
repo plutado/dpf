@@ -170,9 +170,6 @@ function plutado_preprocess_page (&$variables, $hook) {
 function plutado_preprocess_node(&$variables) {
 }
 
-function plutado_preprocess_panels_pane(&$variables) {
-}
-
 function plutado_preprocess_entity(&$variables) {
 
 }
@@ -181,5 +178,12 @@ function plutado_preprocess_field(&$variables) {
 
 }
 
+function plutado_preprocess_panels_pane(&$variables) {
+}
+
 function plutado_preprocess_paragraphs_items(&$variables, $hook) {
+  $element = $variables['element']['#items'][0]['value'];
+  $field_name = $variables['element']['#field_name'];
+  $view_mode = $variables['element'][0]['entity']['paragraphs_item'][$element]['field_body_copy']['#bundle'];
+  $variables['theme_hook_suggestions'][] = 'paragraphs_items__' . $field_name . '-' . $view_mode;
 }

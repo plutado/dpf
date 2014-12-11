@@ -824,7 +824,8 @@ aside {
   }
   /* line 283, ../sass/partials/layouts/_home-layout.scss */
   aside.show-unless-medium {
-    margin: 1.5em auto 1.5em;
+    background: lightgrey;
+    margin: 0em auto 1.5em;
   }
 }
 @media (min-width: 46.25em) {
@@ -837,12 +838,14 @@ aside {
     clear: none;
     padding: 0% 3% 3% 0;
   }
-  /* line 291, ../sass/partials/layouts/_home-layout.scss */
+  /* line 292, ../sass/partials/layouts/_home-layout.scss */
   aside.hide-unless-medium {
+    background: lightgrey;
     display: block;
-    margin: 1em auto;
+    margin: 0 auto 1.5em;
+    padding: 0 1.5em;
   }
-  /* line 295, ../sass/partials/layouts/_home-layout.scss */
+  /* line 298, ../sass/partials/layouts/_home-layout.scss */
   aside.show-unless-medium {
     display: none;
   }
@@ -857,13 +860,17 @@ aside {
     clear: none;
     padding: 0% 3% 3% 0;
   }
-  /* line 303, ../sass/partials/layouts/_home-layout.scss */
+  /* line 306, ../sass/partials/layouts/_home-layout.scss */
   aside.hide-unless-medium {
     display: none;
   }
-  /* line 306, ../sass/partials/layouts/_home-layout.scss */
+  /* line 309, ../sass/partials/layouts/_home-layout.scss */
   aside.show-unless-medium {
+    background: lightgrey;
+    border-left: 1px solid #999;
     display: block;
+    margin: 0;
+    padding: 0 1.5% 4.25%;
   }
 }
 
@@ -883,39 +890,40 @@ aside {
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.8), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 320px) {
-  /* line 19, ../sass/partials/layouts/_post-layout.scss */
-  .post .bg-img {
+  /* line 20, ../sass/partials/layouts/_post-layout.scss */
+  .post header.header .bg-img {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 22, ../sass/partials/layouts/_post-layout.scss */
-  .post .bg-img img {
+  /* line 23, ../sass/partials/layouts/_post-layout.scss */
+  .post header.header .bg-img img {
     transform: scale(1);
     -webkit-transform: scale(1);
     left: -33%;
+    display: block;
   }
 }
 @media (min-width: 800px) {
-  /* line 30, ../sass/partials/layouts/_post-layout.scss */
-  .post .bg-img {
+  /* line 32, ../sass/partials/layouts/_post-layout.scss */
+  .post header.header .bg-img {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 33, ../sass/partials/layouts/_post-layout.scss */
-  .post .bg-img img {
+  /* line 35, ../sass/partials/layouts/_post-layout.scss */
+  .post header.header .bg-img img {
     transform: scale(1);
     -webkit-transform: scale(1);
     left: -10%;
   }
 }
 @media (min-width: 1280px) {
-  /* line 41, ../sass/partials/layouts/_post-layout.scss */
-  .post .bg-img {
+  /* line 43, ../sass/partials/layouts/_post-layout.scss */
+  .post header.header .bg-img {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-  /* line 44, ../sass/partials/layouts/_post-layout.scss */
-  .post .bg-img img {
+  /* line 46, ../sass/partials/layouts/_post-layout.scss */
+  .post header.header .bg-img img {
     transform: scale(1);
     -webkit-transform: scale(1);
     left: 0%;
@@ -1271,8 +1279,166 @@ section.home-page-video {
   top: -10%;
   padding: 5% 10%;
 }
-/* line 7, ../sass/partials/components/_home-page-video.scss */
+@media (min-width: 20em) {
+  /* line 1, ../sass/partials/components/_home-page-video.scss */
+  section.home-page-video {
+    margin-bottom: 1.5em;
+  }
+}
+/* line 10, ../sass/partials/components/_home-page-video.scss */
 section.home-page-video .video-embed {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+/* line 6, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post {
+  margin-bottom: 4%;
+}
+/* line 9, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post.first {
+  width: 48.93617%;
+  clear: right;
+  float: left;
+  margin-left: 0;
+  margin-right: 2.12766%;
+}
+/* line 13, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post.second {
+  width: 48.93617%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: right;
+}
+/* line 18, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post.third {
+  width: 48.93617%;
+  clear: right;
+  float: left;
+  margin-left: 0;
+  margin-right: 2.12766%;
+}
+/* line 22, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post.fourth {
+  width: 48.93617%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 26, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post .sidebar-post-image img {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+/* line 29, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post .sidebar-title-blurb {
+  width: 74.46809%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 31, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post .sidebar-title-blurb h4 {
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+/* line 37, ../sass/partials/components/_home-sidebar-post.scss */
+aside.hide-unless-medium .sidebar-post .sidebar-title-blurb .sidebar-slug {
+  font-size: 80%;
+}
+
+@media (min-width: 75em) {
+  /* line 46, ../sass/partials/components/_home-sidebar-post.scss */
+  aside.show-unless-medium h3 {
+    padding-left: 6%;
+  }
+}
+@media (min-width: 20em) {
+  /* line 57, ../sass/partials/components/_home-sidebar-post.scss */
+  aside.show-unless-medium .sidebar-post {
+    margin-bottom: 8%;
+  }
+}
+@media (min-width: 46.25em) {
+  /* line 57, ../sass/partials/components/_home-sidebar-post.scss */
+  aside.show-unless-medium .sidebar-post {
+    margin-bottom: 12%;
+  }
+}
+@media (min-width: 75em) {
+  /* line 57, ../sass/partials/components/_home-sidebar-post.scss */
+  aside.show-unless-medium .sidebar-post {
+    padding-left: 6%;
+    margin-bottom: 12%;
+  }
+}
+/* line 69, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post.first {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 73, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post.second {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: right;
+}
+/* line 78, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post.third {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 82, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post.fourth {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 86, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post .sidebar-post-image img {
+  width: 31.91489%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+/* line 89, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post .sidebar-title-blurb {
+  padding-left: 2%;
+  width: 65.95745%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 93, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post .sidebar-title-blurb h4 {
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+/* line 99, ../sass/partials/components/_home-sidebar-post.scss */
+aside.show-unless-medium .sidebar-post .sidebar-title-blurb .sidebar-slug {
+  font-size: 80%;
 }

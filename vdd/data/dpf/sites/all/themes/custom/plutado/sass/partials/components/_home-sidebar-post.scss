@@ -1,0 +1,104 @@
+@include add-grid(12);
+@include add-gutter(1/3);
+@include sgs-change('output', 'isolation');
+
+aside.hide-unless-medium {
+  .sidebar-post {
+    margin-bottom: 4%;
+
+    &.first {
+      @include grid-span(6, 1, $output-style: 'float');
+    }
+
+    &.second {
+      @include grid-span(6, 7);
+      clear: right;
+    }
+
+    &.third {
+      @include grid-span(6, 1, $output-style: 'float');
+    }
+
+    &.fourth {
+      @include grid-span(6, 7);
+    }
+
+    .sidebar-post-image img {
+      @include grid-span(3, 1);
+    }
+    .sidebar-title-blurb {
+      @include grid-span(9, 4);
+      h4 {
+        font-weight: 500;
+        line-height: 1.2;
+        padding: 0;
+        margin: 0;
+      }
+      .sidebar-slug {
+        font-size: 80%;
+      }
+    }
+  }
+}
+
+
+aside.show-unless-medium {
+  h3 {
+    @include breakpoint(min-width $home-post-item-grid-small) {
+
+    }
+    @include breakpoint(min-width $home-post-item-grid-medium) {
+
+    }
+    @include breakpoint(min-width $home-post-item-grid-large) {
+      padding-left: 6%;
+    }
+  }
+  .sidebar-post {
+    @include breakpoint(min-width $home-post-item-grid-small) {
+      margin-bottom: 8%;
+    }
+    @include breakpoint(min-width $home-post-item-grid-medium) {
+      margin-bottom: 12%;
+    }
+    @include breakpoint(min-width $home-post-item-grid-large) {
+      padding-left: 6%;
+      margin-bottom: 12%;
+    }
+
+    &.first {
+      @include grid-span(12, 1);
+    }
+
+    &.second {
+      @include grid-span(12, 1);
+      clear: right;
+    }
+
+    &.third {
+      @include grid-span(12, 1);
+    }
+
+    &.fourth {
+      @include grid-span(12, 1);
+    }
+
+    .sidebar-post-image img {
+      @include grid-span(4, 1);
+    }
+    .sidebar-title-blurb {
+      padding-left: 2%;
+
+      @include grid-span(8, 5);
+      h4 {
+        font-weight: 500;
+        line-height: 1.2;
+        padding: 0;
+        margin: 0;
+      }
+      .sidebar-slug {
+        font-size: 80%;
+      }
+    }
+  }
+}
