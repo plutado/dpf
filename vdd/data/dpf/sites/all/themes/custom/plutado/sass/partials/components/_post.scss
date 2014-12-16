@@ -1,0 +1,18 @@
+.post-header {
+  position: absolute;
+  height: 90%;
+  .adaptive-image {
+    display: none;
+  }
+  .title {
+    padding: 1.25em;
+
+    h1 {
+      opacity: 1;
+    }
+    p.subline {
+      color: #ffff00;
+      opacity: 1;
+    }
+  }
+}

@@ -6,7 +6,7 @@
  */
 ?>
 
-<div id="container" class="container post intro-effect-fadeout">
+<div id="container" class="post-header">
   <header class="header">
 
     <?php if (!empty($content['header'])) : ?>
@@ -29,13 +29,7 @@
     <?php endif; ?>
 
   </header>
-  <button class="trigger" data-info=""><span>Trigger</span></button>
 </div>
-
-<?php if (!path_is_admin(current_path())) : ?>
-  <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/classie.js', array('type' => 'file', 'scope' => 'footer')); ?>
-  <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/article-effects.js', array('type' => 'file', 'scope' => 'footer')); ?>
-<?php endif; ?>
 
 <section class="post main">
   <?php print $content['main']; ?>

@@ -45,15 +45,15 @@
   </div>
 
   <?php if (!path_is_admin(current_path())) : ?>
-    <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/jquery.backstretch.min.js', array('type' => 'file', 'scope' => 'footer')); ?>
+    <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/jquery.anystretch.min.js', array('type' => 'file', 'scope' => 'footer')); ?>
     <?php drupal_add_js( drupal_get_path('theme', 'plutado') . '/js/waypoints.min.js', array('type' => 'file', 'scope' => 'footer')); ?>
 
     <script>
       $(document).ready(function($) {
 
         image = ($('.header .bg-img img').attr('src'));
-        $(".container").backstretch(image);
-
+        //$(".container").backstretch(image);
+        $(".container").anystretch(image);
         document.querySelector('#nav-toggle').addEventListener('click', function () {
           this.classList.toggle('active');
         });
