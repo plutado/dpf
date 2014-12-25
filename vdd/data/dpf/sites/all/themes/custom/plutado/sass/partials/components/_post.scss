@@ -5,14 +5,53 @@
     display: none;
   }
   .title {
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 60%;
     padding: 1.25em;
-
     h1 {
       opacity: 1;
+      font-weight: 300;
+      @include breakpoint(min-width $post-tiny) {
+        font-size: 2.5em;
+      }
+      @include breakpoint(min-width $post-small) {
+        font-size: 3.5em;
+      }
     }
     p.subline {
-      color: #ffff00;
+      color: #FFFFFF;
       opacity: 1;
+      font-weight: 300;
+      text-shadow: 2px 2px 0 black, 0 0 0 white, 1px 1px 0 black;
+      @include breakpoint(min-width $post-tiny) {
+        font-size: 1.5em;
+      }
+      @include breakpoint(min-width $post-small) {
+        font-size: 1.75em;
+      }
     }
   }
 }
+
+.post {
+  .first-paragraph {
+    p:first-child:first-letter {
+      color: #000000;
+      float: left;
+      font-family: "Quattrocento", serif;
+      font-size: 600%;
+      line-height: 102px;
+      padding-left: 3px;
+      padding-right: 10px;
+      padding-top: 6px;
+    }
+    p:first-child {
+      font-size: 115%;
+    }
+    p {
+      font-size: 110%;
+    }
+  }
+}
+
+

@@ -1,3 +1,3 @@
-<p class="first-paragraph">
+<section class="first-paragraph">
   <?php print $first_paragraph; ?>
-</p>
+</section>

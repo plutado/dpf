@@ -1,0 +1,41 @@
+section.post-image {
+  overflow: hidden;
+
+  p {
+    margin-top: 0;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  &.left {
+    img {
+      @include grid-span(7, 1);
+      margin-right: auto;
+      padding: .5% 2% .5% 0;
+    }
+  }
+
+  &.right {
+    img {
+      @include grid-span(7, 6);
+      margin-left: 2%;
+      padding: .5% 0 .5% 0%;
+    }
+  }
+
+  &.full {
+    .full-wrapper {
+      background: whitesmoke;
+      margin: 0 auto 1em;
+      padding: 1.5em 1em 0;
+      text-align: center;
+      width: 100%;
+
+      img {
+        width: 90%;
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+}

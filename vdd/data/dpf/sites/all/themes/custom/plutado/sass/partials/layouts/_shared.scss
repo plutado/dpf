@@ -43,14 +43,14 @@ section.quotation {
     font-size: 2em;
     font-weight: 500;
     margin: 0 10% 5%;
-    padding: 2em 2em;
+    padding: 2em 0em 2em 2em;
     line-height: 1.2;
     quotes:"\201C""\201D""\2018""\2019";
 
     p {
       display: block;
       margin: -8% 0 2%;
-      padding: 0 10%;
+      padding: 0 0% 0 10%;
     }
 
     &:before {

@@ -20,6 +20,15 @@
 @import 'partials/layouts/layouts';
 
 ////////////////////////
+// Import Paragraph Layouts
+////////////////////////
+@import 'partials/layouts/paragraphs/blockquote';
+@import 'partials/layouts/paragraphs/body_copy';
+@import 'partials/layouts/paragraphs/first_paragraph';
+@import 'partials/layouts/paragraphs/post_image';
+@import 'partials/layouts/paragraphs/video';
+
+////////////////////////
 // Import Modules
 ////////////////////////
 @import 'partials/modules/modules';

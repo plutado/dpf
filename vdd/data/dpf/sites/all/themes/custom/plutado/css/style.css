@@ -307,7 +307,7 @@ section.quotation blockquote {
   font-size: 2em;
   font-weight: 500;
   margin: 0 10% 5%;
-  padding: 2em 2em;
+  padding: 2em 0em 2em 2em;
   line-height: 1.2;
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -315,7 +315,7 @@ section.quotation blockquote {
 section.quotation blockquote p {
   display: block;
   margin: -8% 0 2%;
-  padding: 0 10%;
+  padding: 0 0% 0 10%;
 }
 /* line 56, ../sass/partials/layouts/_shared.scss */
 section.quotation blockquote:before {
@@ -875,13 +875,13 @@ aside {
 }
 
 /* line 2, ../sass/partials/layouts/_post-layout.scss */
-.post.main {
-  padding: 4% 4% 2%;
+section.post.main {
+  padding: 4% 0% 3%;
   margin: -2% 0 0%;
   width: 100%;
 }
 /* line 7, ../sass/partials/layouts/_post-layout.scss */
-.post .title h1 {
+section.post .title h1 {
   padding: 0 0 0.2em;
   color: #fff;
   font-weight: 500;
@@ -895,11 +895,72 @@ footer.site-footer {
   background: #d3d3d3;
   padding: 2%;
   position: relative;
+  font-size: 90%;
   margin-bottom: -10%;
 }
-/* line 6, ../sass/partials/layouts/_footer.scss */
+/* line 7, ../sass/partials/layouts/_footer.scss */
 footer.site-footer.home {
   top: -10%;
+}
+
+/* line 1, ../sass/partials/layouts/paragraphs/_body_copy.scss */
+section.body {
+  margin: 0 12%;
+}
+
+/* line 1, ../sass/partials/layouts/paragraphs/_first_paragraph.scss */
+section.first-paragraph {
+  margin: 0 12%;
+}
+
+/* line 1, ../sass/partials/layouts/paragraphs/_post_image.scss */
+section.post-image {
+  overflow: hidden;
+}
+/* line 4, ../sass/partials/layouts/paragraphs/_post_image.scss */
+section.post-image p {
+  margin-top: 0;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+/* line 11, ../sass/partials/layouts/paragraphs/_post_image.scss */
+section.post-image.left img {
+  width: 57.14286%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  margin-right: auto;
+  padding: .5% 2% .5% 0;
+}
+/* line 19, ../sass/partials/layouts/paragraphs/_post_image.scss */
+section.post-image.right img {
+  width: 57.14286%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  margin-left: 2%;
+  padding: .5% 0 .5% 0%;
+}
+/* line 27, ../sass/partials/layouts/paragraphs/_post_image.scss */
+section.post-image.full .full-wrapper {
+  background: whitesmoke;
+  margin: 0 auto 1em;
+  padding: 1.5em 1em 0;
+  text-align: center;
+  width: 100%;
+}
+/* line 34, ../sass/partials/layouts/paragraphs/_post_image.scss */
+section.post-image.full .full-wrapper img {
+  width: 90%;
+  margin-bottom: 1em;
+}
+
+/* line 2, ../sass/partials/layouts/paragraphs/_video.scss */
+.post .video-embed {
+  margin: 1em auto 0;
+  max-width: 86%;
 }
 
 /* -------------------------- */
@@ -954,7 +1015,7 @@ section.home-page-video {
   background: #030303;
   position: relative;
   top: -10%;
-  padding: 5% 10%;
+  padding: 5% 3%;
 }
 @media (min-width: 20em) {
   /* line 1, ../sass/partials/components/_home-page-video.scss */
@@ -1131,14 +1192,63 @@ aside.show-unless-medium .sidebar-post .sidebar-title-blurb .sidebar-slug {
 }
 /* line 7, ../sass/partials/components/_post.scss */
 .post-header .title {
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 60%;
   padding: 1.25em;
 }
-/* line 10, ../sass/partials/components/_post.scss */
+/* line 11, ../sass/partials/components/_post.scss */
 .post-header .title h1 {
   opacity: 1;
+  font-weight: 300;
 }
-/* line 13, ../sass/partials/components/_post.scss */
+@media (min-width: 20em) {
+  /* line 11, ../sass/partials/components/_post.scss */
+  .post-header .title h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 33.75em) {
+  /* line 11, ../sass/partials/components/_post.scss */
+  .post-header .title h1 {
+    font-size: 3.5em;
+  }
+}
+/* line 21, ../sass/partials/components/_post.scss */
 .post-header .title p.subline {
-  color: #ffff00;
+  color: #FFFFFF;
   opacity: 1;
+  font-weight: 300;
+  text-shadow: 2px 2px 0 black, 0 0 0 white, 1px 1px 0 black;
+}
+@media (min-width: 20em) {
+  /* line 21, ../sass/partials/components/_post.scss */
+  .post-header .title p.subline {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 33.75em) {
+  /* line 21, ../sass/partials/components/_post.scss */
+  .post-header .title p.subline {
+    font-size: 1.75em;
+  }
+}
+
+/* line 38, ../sass/partials/components/_post.scss */
+.post .first-paragraph p:first-child:first-letter {
+  color: #000000;
+  float: left;
+  font-family: "Quattrocento", serif;
+  font-size: 600%;
+  line-height: 102px;
+  padding-left: 3px;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+/* line 48, ../sass/partials/components/_post.scss */
+.post .first-paragraph p:first-child {
+  font-size: 115%;
+}
+/* line 51, ../sass/partials/components/_post.scss */
+.post .first-paragraph p {
+  font-size: 110%;
 }
