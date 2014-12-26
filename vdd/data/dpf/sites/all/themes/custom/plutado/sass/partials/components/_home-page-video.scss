@@ -1,11 +1,10 @@
 section.home-page-video {
   @include breakpoint(min-width $home-post-item-grid-small) {
-    margin-bottom: 1.5em;
   }
   background: darken(darkgray, 65);
   position: relative;
   top: -10%;
-  padding: 5% 3%;
+  padding: 3% 3%;
 
   .video-embed {
     max-width: 1440px;

@@ -71,7 +71,18 @@
   background: whitesmoke;
   position: relative;
   overflow: hidden;
-  top: -10%;
+
+  @include breakpoint(min-width $home-post-item-grid-small) {
+    top: -5%;
+  }
+
+  @include breakpoint(min-width $home-post-item-grid-medium) {
+    top: -5%;
+  }
+
+  @include breakpoint(min-width $home-post-item-grid-large) {
+    top: -8%;
+  }
 
   .main-posts {
     @include grid-span(8, 1);
@@ -311,8 +322,8 @@ aside {
       background: lightgrey;
       border-left: 1px solid #999;
       display: block;
-      margin: 0;
-      padding: 0 1.5% 4.25%;
+      margin: 3% 0 4%;
+      padding: 0 1.5% 0;
     }
 
   }
