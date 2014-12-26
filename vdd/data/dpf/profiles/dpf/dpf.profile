@@ -139,6 +139,7 @@ function dpf_modules_array() {
     'views_ui',
     'prev_next',
     'feature_post',
+    'feature_paragraphs',
   );
 
   return $module_list;
