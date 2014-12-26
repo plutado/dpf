@@ -28,7 +28,7 @@ projects[bean][version] = 1.8
 projects[blockify][version] = 1.2
 projects[borealis][version] = 2.2
 projects[ckeditor][version] = 1.16
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.5
 projects[devel][version] = 1.5
 projects[ds][version] = 2.7
 projects[elements][version] = 1.4
@@ -46,17 +46,17 @@ projects[html5_tools][version] = 1.2
 projects[job_scheduler][version] = 2.0-alpha3
 projects[jquery_update][version] = 2.4
 projects[libraries][version] = 2.2
-projects[magic][version] = 2.0
+projects[magic][version] = 2.1
 projects[manualcrop][version] = 1.4
 projects[modernizr][version] = 3.3
 projects[panels][version] = 3.4
 projects[panels_everywhere][version] = 1.0-rc1
 projects[pathauto][version] = 1.2
-projects[paragraphs][version] = 1.0-beta4
+projects[paragraphs][version] = 1.0-beta5
 projects[prev_next][version] = 2.x-dev
 projects[plupload][version] = 1.7
 projects[restws][version] = 2.2
-projects[scald][version] = 1.2
+projects[scald][version] = 1.3
 projects[seckit][version] = 1.9
 projects[search_krumo][version] = 1.5
 projects[semantic_fields][version] = 1.1-beta2
@@ -64,7 +64,7 @@ projects[token][version] = 1.5
 projects[views][version] = 3.8
 ; projects[wysiwyg][version] = 2.2
 
-projects[aurora] = 3.x-dev
+projects[aurora] = 3.4
 
 ; Libraries
 ; --------
