@@ -47,6 +47,7 @@ projects[job_scheduler][version] = 2.0-alpha3
 projects[jquery_update][version] = 2.4
 projects[libraries][version] = 2.2
 projects[magic][version] = 2.1
+projects[master][version] = 2.0-beta4
 projects[manualcrop][version] = 1.4
 projects[modernizr][version] = 3.3
 projects[panels][version] = 3.4
@@ -77,7 +78,8 @@ libraries[ckeditor][destination] = "libraries"
 
 ; modernizr
 libraries[html5shiv][download][type]= "get"
-libraries[html5shiv][download][url] = "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+;libraries[html5shiv][download][url] = "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+libraries[html5shiv][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.8.3.zip"
 libraries[html5shiv][directory_name] = "modernizr"
 libraries[html5shiv][destination] = "libraries"
 
