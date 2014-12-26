@@ -10,7 +10,10 @@
 <header id="ha-header" class="ha-header ha-header-small">
   <div class="ha-header-perspective">
     <div class="ha-header-front">
-      <h1><span>DAVID FUGATE</span></h1>
+      <!--<span>DAVID FUGATE</span>-->
+      <span>
+        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/dpf-logo.png" />
+      </span>
       <nav>
         <a id="nav-toggle" class="menu-anchor">
           <!-- &#9776; -->
@@ -23,14 +26,12 @@
       </nav>
     </div>
     <div class="ha-header-bottom">
-      <nav>
-        <a>Dalliance</a>
-        <a>Inglenook</a>
-        <a>Lagniappe</a>
-        <a>Mellifluous</a>
-        <a>Erstwhile</a>
-        <a>Wafture</a>
-      </nav>
+      <p>
+        DIY laborum migas pug. Asymmetrical Intelligentsia veniam brunch, street art selfies literally culpa actually gastropub. Reprehenderit cliche four loko heirloom ea. Nisi eiusmod readymade culpa elit. Cred pork belly roof party bespoke. Flannel small batch lo-fi kale chips, adipisicing 8-bit retro banjo tousled. Readymade salvia quis cillum eiusmod magna.
+      </p>
+      <p>
+        Disrupt incididunt Bushwick 8-bit, tilde lo-fi narwhal tattooed laboris excepteur Blue Bottle Helvetica migas health goth. Lomo Brooklyn farm-to-table ullamco. Dolor craft beer lo-fi banh mi. American Apparel street art tattooed stumptown, whatever banh mi fingerstache sed migas single-origin coffee Banksy mixtape XOXO. Literally shabby chic voluptate.
+      </p>
     </div>
   </div>
 </header>

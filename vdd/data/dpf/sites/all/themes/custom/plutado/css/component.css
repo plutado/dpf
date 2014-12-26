@@ -1,6 +1,7 @@
 /* Header styles and animations */
 
 .ha-header {
+  height: 100px !important;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -28,9 +29,9 @@
 }
 
 .ha-header-perspective > div {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 1);
 	text-align: left;
-	padding: 0 2%;
+	padding: 0 1%;
 	height: 50%;
 	width: 100%;
 	margin: 0 auto;
@@ -53,6 +54,10 @@
   -webkit-box-shadow: 0 6px 6px -6px grey;
   -moz-box-shadow: 0 6px 6px -6px grey;
   box-shadow: 0 6px 6px -6px grey;
+}
+
+.ha-header-front img {
+  padding: 8px 0;
 }
 
 .ha-header-perspective .ha-header-bottom {
@@ -94,7 +99,7 @@
 	font-weight: 500;
 	font-size: 2em;
 	margin: 0;
-	padding: 0 0em 0 0;
+	padding: 0 4px 0 4px;
 	color: #2d383f;
 	cursor: default;
 	height: 100%;
@@ -221,7 +226,7 @@
 }
 
 .ha-header-subshow {
-	height: 100px;
+	height: auto;
 }
 
 .ha-header-subshow .ha-header-bottom {
@@ -231,8 +236,15 @@
 	-webkit-transform: rotateX(0deg);
 	-moz-transform: rotateX(0deg);
 	transform: rotateX(0deg);
-	top: 50%;
-  height: 100%;
+	top: 0%;
+  /* height: 100%; */
+  height: auto;
+  position: static;
+  padding: 0% 3% 0;
+}
+
+.ha-header-bottom p:last-child {
+  margin-bottom: 0;
 }
 
 .ha-header-shrink {
@@ -378,8 +390,11 @@
 #nav-toggle {
   cursor: pointer;
   padding: 0px 35px 16px 0px;
-  margin: 20px 0;
+  margin: 5px 0;
+  position: relative;
+  top: -3px;
 }
+
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
