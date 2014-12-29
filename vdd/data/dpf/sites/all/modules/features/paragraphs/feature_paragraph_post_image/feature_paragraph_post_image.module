@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Post Image feature.
+ */
+
+include_once 'feature_paragraph_post_image.features.inc';

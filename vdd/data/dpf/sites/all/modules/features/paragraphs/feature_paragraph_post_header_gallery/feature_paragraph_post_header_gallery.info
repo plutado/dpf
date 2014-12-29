@@ -1,0 +1,14 @@
+name = Post Header Gallery
+core = 7.x
+package = Paragraphs
+version = 7.x-1.0
+project = feature_paragraph_post_header_gallery
+dependencies[] = atom_reference
+dependencies[] = feature_post
+dependencies[] = features
+dependencies[] = paragraphs
+dependencies[] = text
+features[features_api][] = api:2
+features[field_instance][] = paragraphs_item-post_header_gallery-field_header_image
+features[field_instance][] = paragraphs_item-post_header_gallery-field_header_subline
+features[paragraphs][] = post_header_gallery

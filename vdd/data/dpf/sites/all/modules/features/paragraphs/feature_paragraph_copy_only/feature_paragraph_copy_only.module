@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Copy Only feature.
+ */
+
+include_once 'feature_paragraph_copy_only.features.inc';

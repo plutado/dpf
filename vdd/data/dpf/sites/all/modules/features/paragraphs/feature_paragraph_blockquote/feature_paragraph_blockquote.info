@@ -1,0 +1,15 @@
+name = Blockquote
+core = 7.x
+package = Paragraphs
+version = 7.x-1.0
+project = feature_paragraph_blockquote
+dependencies[] = features
+dependencies[] = paragraphs
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_block_quote
+features[field_base][] = field_quote_source
+features[field_instance][] = paragraphs_item-block_quote-field_block_quote
+features[field_instance][] = paragraphs_item-block_quote-field_quote_source
+features[paragraphs][] = block_quote
+mtime = 1419666609

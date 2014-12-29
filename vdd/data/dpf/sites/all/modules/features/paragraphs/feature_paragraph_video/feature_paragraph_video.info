@@ -1,0 +1,15 @@
+name = Video
+core = 7.x
+package = Paragraphs
+version = 7.x-1.0
+project = feature_paragraph_video
+dependencies[] = atom_reference
+dependencies[] = features
+dependencies[] = paragraphs
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_video
+features[field_base][] = field_video_title
+features[field_instance][] = paragraphs_item-video-field_video
+features[field_instance][] = paragraphs_item-video-field_video_title
+features[paragraphs][] = video
