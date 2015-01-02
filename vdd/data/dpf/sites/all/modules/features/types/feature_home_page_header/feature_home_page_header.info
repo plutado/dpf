@@ -1,0 +1,16 @@
+name = Home Page Header
+core = 7.x
+package = Types
+version = 7.x-1.0
+project = feature_home_page_header
+dependencies[] = atom_reference
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_header_title
+features[field_instance][] = node-home_page_header-field_header_image
+features[field_instance][] = node-home_page_header-field_header_subline
+features[field_instance][] = node-home_page_header-field_header_title
+features[node][] = home_page_header
+features_exclude[dependencies][feature_post] = feature_post
+mtime = 1420163075

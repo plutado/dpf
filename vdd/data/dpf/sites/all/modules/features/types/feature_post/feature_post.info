@@ -1,7 +1,7 @@
 name = Post
 description = a feature for the 'post' content type.
 core = 7.x
-package = Features
+package = Types
 version = 7.x-1.0
 project = feature_post
 dependencies[] = atom_reference
@@ -27,4 +27,4 @@ features[field_instance][] = node-post-field_header_subline
 features[field_instance][] = node-post-field_tout_content
 features[node][] = post
 features[page_manager_handlers][] = node_view_panel_context
-mtime = 1419568967
+mtime = 1420163074

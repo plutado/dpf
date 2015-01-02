@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Home feature.
+ */
+
+include_once 'feature_landing_home.features.inc';

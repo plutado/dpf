@@ -1,0 +1,12 @@
+name = Video
+core = 7.x
+package = Types
+version = 7.x-1.0
+project = feature_video
+dependencies[] = features
+dependencies[] = paragraphs
+features[features_api][] = api:2
+features[field_instance][] = node-video-field_body
+features[node][] = video
+features_exclude[dependencies][feature_post] = feature_post
+mtime = 1420163076

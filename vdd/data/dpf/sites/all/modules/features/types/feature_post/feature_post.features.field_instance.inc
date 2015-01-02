@@ -21,6 +21,7 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
+          'semantic_field_format' => 0,
           'view_mode' => 'full',
         ),
         'type' => 'paragraphs_view',
@@ -30,6 +31,7 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
+          'semantic_field_format' => 0,
           'view_mode' => 'full',
         ),
         'type' => 'paragraphs_view',
@@ -65,8 +67,6 @@ function feature_post_field_default_field_instances() {
         'block_quote' => 'block_quote',
         'copy_only' => 'copy_only',
         'first_paragraph' => 'first_paragraph',
-        'half_image' => 0,
-        'half_image_tout' => 0,
         'post_header_gallery' => 0,
         'post_header_image' => 0,
         'post_image' => 'post_image',
@@ -99,8 +99,9 @@ function feature_post_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
+          'semantic_field_format' => 0,
         ),
-        'type' => 'tout_wide_image_scald_context',
+        'type' => 'title',
         'weight' => 2,
       ),
       'full' => array(
@@ -108,6 +109,7 @@ function feature_post_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
+          'semantic_field_format' => 0,
         ),
         'type' => 'title',
         'weight' => 1,
@@ -123,8 +125,9 @@ function feature_post_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
+          'semantic_field_format' => 0,
         ),
-        'type' => 'tout_wide_image_scald_context',
+        'type' => 'title',
         'weight' => 3,
       ),
     ),
@@ -161,14 +164,18 @@ function feature_post_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
         'type' => 'text_default',
         'weight' => 3,
       ),
       'full' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
         'type' => 'text_default',
         'weight' => 2,
       ),
@@ -181,7 +188,9 @@ function feature_post_field_default_field_instances() {
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
         'type' => 'text_default',
         'weight' => 4,
       ),
@@ -221,6 +230,7 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
+          'semantic_field_format' => 0,
           'view_mode' => 'post_tout_paragraph',
         ),
         'type' => 'paragraphs_view',
@@ -236,6 +246,7 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
+          'semantic_field_format' => 0,
           'view_mode' => 'post_tout_paragrpah',
         ),
         'type' => 'paragraphs_view',
@@ -245,6 +256,7 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
+          'semantic_field_format' => 0,
           'view_mode' => 'post_tout_paragraph',
         ),
         'type' => 'paragraphs_view',
@@ -254,6 +266,7 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
+          'semantic_field_format' => 0,
           'view_mode' => 'full',
         ),
         'type' => 'paragraphs_view',
@@ -268,11 +281,7 @@ function feature_post_field_default_field_instances() {
     'settings' => array(
       'allowed_bundles' => array(
         'block_quote' => 0,
-        'half_image' => 0,
-        'half_image_tout' => 'half_image_tout',
-        'text_only' => 'text_only',
         'video' => 0,
-        'wide_image' => 0,
         'wide_image_tout' => 'wide_image_tout',
       ),
       'default_edit_mode' => 'open',

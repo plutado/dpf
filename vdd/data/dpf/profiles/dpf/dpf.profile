@@ -137,9 +137,19 @@ function dpf_modules_array() {
     'seckit',
     'views',
     'views_ui',
+    'waypoints',
     'prev_next',
+    'feature_paragraph_blockquote',
+    'feature_paragraph_copy_only',
+    'feature_paragraph_first_paragraph',
+    'feature_paragraph_header_gallery',
+    'feature_paragraph_post_image',
+    'feature_paragraph_video',
+    'feature_paragraph_wide_image_tout',
+    'feature_landing_home',
+    'feature_home_page_header',
     'feature_post',
-    'feature_paragraphs',
+    'feature_video',
   );
 
   return $module_list;

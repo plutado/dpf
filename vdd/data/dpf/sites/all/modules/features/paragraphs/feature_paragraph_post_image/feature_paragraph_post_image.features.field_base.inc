@@ -36,25 +36,5 @@ function feature_paragraph_post_image_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_tout_image'
-  $field_bases['field_tout_image'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_tout_image',
-    'foreign keys' => array(),
-    'indexes' => array(
-      'sid' => array(
-        0 => 'sid',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'atom_reference',
-    'settings' => array(),
-    'translatable' => 0,
-    'type' => 'atom_reference',
-  );
-
   return $field_bases;
 }

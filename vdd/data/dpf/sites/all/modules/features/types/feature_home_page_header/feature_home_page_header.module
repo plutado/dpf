@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Home Page Header feature.
+ */
+
+include_once 'feature_home_page_header.features.inc';
