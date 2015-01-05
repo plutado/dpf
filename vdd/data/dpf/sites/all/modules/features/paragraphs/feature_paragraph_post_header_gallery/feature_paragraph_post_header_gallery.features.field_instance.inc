@@ -22,6 +22,7 @@ function feature_paragraph_post_header_gallery_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
+          'semantic_field_format' => 0,
         ),
         'type' => 'title',
         'weight' => 0,
@@ -66,7 +67,9 @@ function feature_paragraph_post_header_gallery_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
         'type' => 'text_default',
         'weight' => 1,
       ),

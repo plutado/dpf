@@ -10,5 +10,6 @@ $plugin = array(
     'title' => t('Title'),
     'subline' => t('Subline'),
     'main' => t('Main'),
+    'placement' => t('Title Placement'),
   ),
 );

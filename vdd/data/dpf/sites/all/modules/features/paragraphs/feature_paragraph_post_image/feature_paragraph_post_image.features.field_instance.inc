@@ -20,7 +20,9 @@ function feature_paragraph_post_image_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
         'type' => 'text_default',
         'weight' => 1,
       ),
@@ -65,7 +67,9 @@ function feature_paragraph_post_image_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'list',
-        'settings' => array(),
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
         'type' => 'list_key',
         'weight' => 2,
       ),
@@ -93,57 +97,10 @@ function feature_paragraph_post_image_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'paragraphs_item-post_image-field_tout_image'
-  $field_instances['paragraphs_item-post_image-field_tout_image'] = array(
-    'bundle' => 'post_image',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'atom_reference',
-        'settings' => array(
-          'link' => 0,
-        ),
-        'type' => 'tout_wide_image_scald_context',
-        'weight' => 0,
-      ),
-      'paragraphs_editor_preview' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'paragraphs_item',
-    'fences_wrapper' => 'no_wrapper',
-    'field_name' => 'field_tout_image',
-    'label' => 'Tout Image',
-    'required' => 0,
-    'settings' => array(
-      'referencable_types' => array(
-        'image' => 'image',
-        'video' => 0,
-      ),
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'atom_reference',
-      'settings' => array(
-        'context' => 'sdl_editor_representation',
-      ),
-      'type' => 'atom_reference_textfield',
-      'weight' => 4,
-    ),
-  );
-
   // Translatables
   // Included for use with string extractors like potx.
   t('Body Copy');
   t('Image Float');
-  t('Tout Image');
 
   return $field_instances;
 }

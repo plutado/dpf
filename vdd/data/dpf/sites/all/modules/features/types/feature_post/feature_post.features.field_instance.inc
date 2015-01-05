@@ -31,7 +31,6 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'paragraphs',
         'settings' => array(
-          'semantic_field_format' => 0,
           'view_mode' => 'full',
         ),
         'type' => 'paragraphs_view',
@@ -109,7 +108,6 @@ function feature_post_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
-          'semantic_field_format' => 0,
         ),
         'type' => 'title',
         'weight' => 1,
@@ -173,9 +171,7 @@ function feature_post_field_default_field_instances() {
       'full' => array(
         'label' => 'above',
         'module' => 'text',
-        'settings' => array(
-          'semantic_field_format' => 0,
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 2,
       ),
@@ -219,6 +215,57 @@ function feature_post_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-post-field_title_placement'
+  $field_instances['node-post-field_title_placement'] = array(
+    'bundle' => 'post',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_key',
+        'weight' => 4,
+      ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 4,
+      ),
+      'post_tout_node' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'fences_wrapper' => 'no_wrapper',
+    'field_name' => 'field_title_placement',
+    'label' => 'Title Placement',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 14,
+    ),
+  );
+
   // Exported field_instance: 'node-post-field_tout_content'
   $field_instances['node-post-field_tout_content'] = array(
     'bundle' => 'post',
@@ -240,7 +287,7 @@ function feature_post_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 11,
+        'weight' => 13,
       ),
       'post_tout' => array(
         'label' => 'hidden',
@@ -303,6 +350,7 @@ function feature_post_field_default_field_instances() {
   t('Header Image');
   t('Header Subline');
   t('Primary Paragraphs');
+  t('Title Placement');
   t('Tout Content');
 
   return $field_instances;

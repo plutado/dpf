@@ -19,7 +19,7 @@
 ?>
 
 <?php if($pane->panel == 'header') : ?>
-  <div id="container" class="container intro-effect-fadeout ha-waypoint" data-animate-down="ha-header-hide" data-animate-up="ha-header-hide">
+  <div id="container" class="ip-main container intro-effect-fadeout ha-waypoint" data-animate-down="ha-header-hide" data-animate-up="ha-header-hide">
     <header class="header">
 
       <?php if (!empty($content['field_header_image'][0]['#markup'])) : ?>
@@ -30,9 +30,9 @@
 
       <div class="title">
         <?php if (!empty($content['field_header_title'][0]['#markup'])) : ?>
-          <h1>
-            <?php print $content['field_header_title'][0]['#markup']; ?>
-          </h1>
+          <!--<h1>
+            <?php // print $content['field_header_title'][0]['#markup']; ?>
+          </h1>-->
         <?php endif; ?>
         <?php if (!empty($content['field_header_subline'][0]['#markup'])) : ?>
           <p class="subline">

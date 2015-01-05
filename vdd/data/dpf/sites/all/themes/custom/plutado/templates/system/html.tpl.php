@@ -47,12 +47,33 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-  <style>@import url("http://dpf.local/sites/all/themes/custom/plutado/css/component.css");</style>
   <?php print $scripts; ?>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://davidfugate.com/sites/all/themes/custom/plutado/js/modernizr.custom.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 </head>
+
 <body>
+
+<?php if ($is_front) : ?>
+  <div id="ip-container" class="ip-container">
+    <header class="ip-header">
+      <h1 class="ip-logo">
+        <img class="ip-inner" width="50%" src="sites/all/themes/custom/plutado/images/dpf-logo.svg" />
+      </h1>
+      <div class="ip-loader">
+        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+          <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+          <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg>
+      </div>
+    </header>
+  </div><!-- /container -->
+<?php endif; ?>
+
+<script src="https://davidfugate.com/sites/all/themes/custom/plutado/js/classie.js"></script>
+<script src="https://davidfugate.com/sites/all/themes/custom/plutado/js/pathLoader.js"></script>
+<script src="https://davidfugate.com/sites/all/themes/custom/plutado/js/main.js"></script>
 
 <?php print $page_top; ?>
 <?php print $page; ?>

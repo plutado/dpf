@@ -5,6 +5,7 @@
 // Build sub folders and partials in this folder, with everything being imported, in cascading order, into this file.
 /* -------------------------- */
 
+@import "main-nav";
 @import 'home-page-header';
 @import 'home-post-tout-item';
 @import 'home-page-video';

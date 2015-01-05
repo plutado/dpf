@@ -22,9 +22,8 @@ function feature_home_page_header_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
-          'semantic_field_format' => 0,
         ),
-        'type' => 'title',
+        'type' => 'tout_wide_image_scald_context',
         'weight' => 1,
       ),
       'full' => array(
@@ -32,9 +31,8 @@ function feature_home_page_header_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
-          'semantic_field_format' => 0,
         ),
-        'type' => 'title',
+        'type' => 'tout_wide_image_scald_context',
         'weight' => 1,
       ),
       'teaser' => array(
@@ -77,18 +75,14 @@ function feature_home_page_header_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(
-          'semantic_field_format' => 0,
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 2,
       ),
       'full' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(
-          'semantic_field_format' => 0,
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 2,
       ),
@@ -133,18 +127,14 @@ function feature_home_page_header_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(
-          'semantic_field_format' => 0,
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 0,
       ),
       'full' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(
-          'semantic_field_format' => 0,
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 0,
       ),

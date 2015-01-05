@@ -22,14 +22,18 @@ function feature_paragraph_post_header_image_field_default_field_instances() {
         'module' => 'atom_reference',
         'settings' => array(
           'link' => 0,
+          'semantic_field_format' => 0,
         ),
-        'type' => 'tout_wide_image_scald_context',
+        'type' => 'title',
         'weight' => 0,
       ),
       'paragraphs_editor_preview' => array(
         'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
+        'module' => 'atom_reference',
+        'settings' => array(
+          'link' => 0,
+        ),
+        'type' => 'tout_wide_image_scald_context',
         'weight' => 0,
       ),
     ),

@@ -12,7 +12,7 @@
     <div class="ha-header-front">
       <!--<span>DAVID FUGATE</span>-->
       <span>
-        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/dpf-logo.png" />
+        <img width="215" src="sites/all/themes/custom/plutado/images/dpf-logo.svg" />
       </span>
       <nav>
         <a id="nav-toggle" class="menu-anchor">
@@ -32,6 +32,18 @@
       <p>
         Disrupt incididunt Bushwick 8-bit, tilde lo-fi narwhal tattooed laboris excepteur Blue Bottle Helvetica migas health goth. Lomo Brooklyn farm-to-table ullamco. Dolor craft beer lo-fi banh mi. American Apparel street art tattooed stumptown, whatever banh mi fingerstache sed migas single-origin coffee Banksy mixtape XOXO. Literally shabby chic voluptate.
       </p>
+      <p>
+        DIY laborum migas pug. Asymmetrical Intelligentsia veniam brunch, street art selfies literally culpa actually gastropub. Reprehenderit cliche four loko heirloom ea. Nisi eiusmod readymade culpa elit. Cred pork belly roof party bespoke. Flannel small batch lo-fi kale chips, adipisicing 8-bit retro banjo tousled. Readymade salvia quis cillum eiusmod magna.
+      </p>
+      <p>
+        Disrupt incididunt Bushwick 8-bit, tilde lo-fi narwhal tattooed laboris excepteur Blue Bottle Helvetica migas health goth. Lomo Brooklyn farm-to-table ullamco. Dolor craft beer lo-fi banh mi. American Apparel street art tattooed stumptown, whatever banh mi fingerstache sed migas single-origin coffee Banksy mixtape XOXO. Literally shabby chic voluptate.
+      </p>
+      <p>
+        DIY laborum migas pug. Asymmetrical Intelligentsia veniam brunch, street art selfies literally culpa actually gastropub. Reprehenderit cliche four loko heirloom ea. Nisi eiusmod readymade culpa elit. Cred pork belly roof party bespoke. Flannel small batch lo-fi kale chips, adipisicing 8-bit retro banjo tousled. Readymade salvia quis cillum eiusmod magna.
+      </p>
+      <p>
+        Disrupt incididunt Bushwick 8-bit, tilde lo-fi narwhal tattooed laboris excepteur Blue Bottle Helvetica migas health goth. Lomo Brooklyn farm-to-table ullamco. Dolor craft beer lo-fi banh mi. American Apparel street art tattooed stumptown, whatever banh mi fingerstache sed migas single-origin coffee Banksy mixtape XOXO. Literally shabby chic voluptate.
+      </p>
     </div>
   </div>
 </header>
@@ -41,7 +53,7 @@
 
 <section class="posts-grid ha-waypoint" data-animate-down="ha-header-hide" data-animate-up="ha-header-hide">
 
-  <div class="main-posts">
+  <div class="main-posts ip-main">
 
     <div class="article first">
       <?php print $content['first']; ?>
@@ -52,11 +64,11 @@
     </div>
 
     <aside class="right-rail hide-unless-medium">
-      <h3>Right Rail</h3>
+      <h3>At a Glance</h3>
 
       <div class="sidebar-post first">
         <div class="sidebar-post-image">
-          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/tree.png" />
+          <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
         </div>
         <div class="sidebar-title-blurb">
           <span class="sidebar-slug">
@@ -68,7 +80,7 @@
 
       <div class="sidebar-post second">
         <div class="sidebar-post-image">
-          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/IMG_0695.png" />
+          <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
         </div>
         <div class="sidebar-title-blurb">
           <span class="sidebar-slug">
@@ -80,7 +92,7 @@
 
       <div class="sidebar-post third">
         <div class="sidebar-post-image">
-          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building.png" />
+          <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
         </div>
         <div class="sidebar-title-blurb">
           <span class="sidebar-slug">
@@ -92,7 +104,7 @@
 
       <div class="sidebar-post fourth">
         <div class="sidebar-post-image">
-          <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building-01.png" />
+          <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
         </div>
         <div class="sidebar-title-blurb">
           <span class="sidebar-slug">
@@ -115,11 +127,11 @@
   </div>
 
   <aside class="right-rail show-unless-medium">
-    <h3>Right Rail</h3>
+    <h3>At a Glance</h3>
 
     <div class="sidebar-post first">
       <div class="sidebar-post-image">
-        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/tree.png" />
+        <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
       </div>
       <div class="sidebar-title-blurb">
           <span class="sidebar-slug">
@@ -131,7 +143,7 @@
 
     <div class="sidebar-post second">
       <div class="sidebar-post-image">
-        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/IMG_0695.png" />
+        <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
       </div>
       <div class="sidebar-title-blurb">
           <span class="sidebar-slug">
@@ -143,7 +155,7 @@
 
     <div class="sidebar-post third">
       <div class="sidebar-post-image">
-        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building.png" />
+        <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
       </div>
       <div class="sidebar-title-blurb">
           <span class="sidebar-slug">
@@ -155,7 +167,7 @@
 
     <div class="sidebar-post fourth">
       <div class="sidebar-post-image">
-        <img src="http://dpf.local/sites/all/themes/custom/plutado/images/temp/building-01.png" />
+        <img src="sites/all/themes/custom/plutado/images/temp/default-placeholder-square.jpg" />
       </div>
       <div class="sidebar-title-blurb">
           <span class="sidebar-slug">

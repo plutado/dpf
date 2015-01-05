@@ -52,7 +52,8 @@ function feature_post_field_group_info() {
     'children' => array(
       0 => 'field_header_image',
       1 => 'field_header_subline',
-      2 => 'title',
+      2 => 'field_title_placement',
+      3 => 'title',
     ),
     'format_type' => 'tab',
     'format_settings' => array(
