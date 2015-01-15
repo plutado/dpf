@@ -229,7 +229,10 @@
 
 </section>
 
-<footer class="site-footer">
-  Developed with Drupal.
-</footer>
+<?php if (!$is_admin) : ?>
+  <footer class="site-footer">
+    Developed using <a href="http://drupal.org">Drupal</a>. <br>
+    Designed by <a href="http://companyname.tv">CompanyName.TV, LLC</a>
+  </footer>
+<?php endif; ?>
 

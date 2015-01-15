@@ -61,6 +61,7 @@ projects[scald][version] = 1.3
 projects[seckit][version] = 1.9
 projects[search_krumo][version] = 1.5
 projects[semantic_fields][version] = 1.1-beta2
+projects[strongarm][version] = 2.0
 projects[token][version] = 1.5
 projects[views][version] = 3.8
 ; projects[wysiwyg][version] = 2.2

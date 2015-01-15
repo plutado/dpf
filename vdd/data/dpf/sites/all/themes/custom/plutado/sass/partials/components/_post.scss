@@ -26,9 +26,19 @@
       left: 25%;
     }
     &.right {
-      width: 100%;
-      top: 50%;
-      left: 75%;
+      @include breakpoint(min-width $post-tiny) {
+        width: 100%;
+        top: 50%;
+        left: 50%;
+      }
+      @include breakpoint(min-width $post-small) {
+        width: 50%;
+        left: 25%;
+      }
+      @include breakpoint(min-width $post-medium) {
+        left: 50%;
+      }
+
     }
     &.center {
       width: 100%;

@@ -135,6 +135,7 @@ function dpf_modules_array() {
     'search_krumo',
     'semantic_fields',
     'seckit',
+    'strongarm',
     'views',
     'views_ui',
     'waypoints',

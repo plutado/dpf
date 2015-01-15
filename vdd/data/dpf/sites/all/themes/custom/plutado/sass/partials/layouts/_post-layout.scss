@@ -14,5 +14,20 @@ section.post {
     0px 8px 13px rgba(0,0,0,0.1),
     0px 18px 23px rgba(0,0,0,0.1);
   }
+  blockquote {
+    @include blockquote;
+    margin: 0 2%;
+    padding: 1em 0 0 2em;
 
+    .author {
+      p {
+        display: inline-block;
+        padding: 0;
+        margin: -7% 0 2%;
+      }
+    }
+    p:empty {
+      display: none;
+    }
+  }
 }

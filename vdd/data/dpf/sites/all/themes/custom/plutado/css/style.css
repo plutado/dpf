@@ -265,44 +265,30 @@ a:hover, a:focus {
 
 /* -------------------------- */
 /* -------------------------- */
-@font-face {
-  font-weight: normal;
-  font-style: normal;
-  font-family: 'codropsicons';
-  src: url("../fonts/codropsicons/codropsicons.eot");
-  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
-}
-@font-face {
-  font-weight: normal;
-  font-style: normal;
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?-ee0u0f");
-  src: url("../fonts/icomoon/icomoon.eot?#iefix-ee0u0f") format("embedded-opentype"), url("../fonts/icomoon/icomoon.woff?-ee0u0f") format("woff"), url("../fonts/icomoon/icomoon.ttf?-ee0u0f") format("truetype"), url("../fonts/icomoon/icomoon.svg?-ee0u0f#icomoon") format("svg");
-}
-/* line 23, ../sass/partials/layouts/_shared.scss */
+/* line 1, ../sass/partials/layouts/_shared.scss */
 html, body {
   height: 100%;
 }
 
-/* line 27, ../sass/partials/layouts/_shared.scss */
+/* line 5, ../sass/partials/layouts/_shared.scss */
 body {
   background: #fff;
   overflow-x: hidden;
 }
 
-/* line 32, ../sass/partials/layouts/_shared.scss */
+/* line 10, ../sass/partials/layouts/_shared.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: '';
 }
 
-/* line 36, ../sass/partials/layouts/_shared.scss */
+/* line 14, ../sass/partials/layouts/_shared.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 41, ../sass/partials/layouts/_shared.scss */
-section.quotation blockquote {
+/* line 18, ../sass/partials/layouts/_shared.scss */
+section.quotation {
   border-left: 1px solid #ccc;
   font-size: 2em;
   font-weight: 500;
@@ -311,14 +297,14 @@ section.quotation blockquote {
   line-height: 1.2;
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
-/* line 50, ../sass/partials/layouts/_shared.scss */
-section.quotation blockquote p {
+/* line 10, ../sass/partials/global/_mixins.scss */
+section.quotation p {
   display: block;
   margin: -8% 0 2%;
   padding: 0 0% 0 10%;
 }
-/* line 56, ../sass/partials/layouts/_shared.scss */
-section.quotation blockquote:before {
+/* line 16, ../sass/partials/global/_mixins.scss */
+section.quotation:before {
   color: #d3d3d3;
   content: open-quote;
   font-size: 3em;
@@ -326,16 +312,16 @@ section.quotation blockquote:before {
   margin-right: .25em;
   vertical-align: -.4em;
 }
-/* line 65, ../sass/partials/layouts/_shared.scss */
-section.quotation blockquote .author {
+/* line 25, ../sass/partials/global/_mixins.scss */
+section.quotation .author {
   color: grey;
   font-size: 70%;
   font-style: italic;
   margin: 0 0;
   padding: 0 10%;
 }
-/* line 72, ../sass/partials/layouts/_shared.scss */
-section.quotation blockquote .author:before {
+/* line 32, ../sass/partials/global/_mixins.scss */
+section.quotation .author:before {
   content: ' - ';
 }
 
@@ -935,6 +921,55 @@ section.post .title h1 {
   font-size: 2.5em;
   margin: 0 auto;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.8), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+/* line 17, ../sass/partials/layouts/_post-layout.scss */
+section.post blockquote {
+  border-left: 1px solid #ccc;
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0 10% 5%;
+  padding: 2em 0em 2em 2em;
+  line-height: 1.2;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  margin: 0 2%;
+  padding: 1em 0 0 2em;
+}
+/* line 10, ../sass/partials/global/_mixins.scss */
+section.post blockquote p {
+  display: block;
+  margin: -8% 0 2%;
+  padding: 0 0% 0 10%;
+}
+/* line 16, ../sass/partials/global/_mixins.scss */
+section.post blockquote:before {
+  color: #d3d3d3;
+  content: open-quote;
+  font-size: 3em;
+  line-height: .1em;
+  margin-right: .25em;
+  vertical-align: -.4em;
+}
+/* line 25, ../sass/partials/global/_mixins.scss */
+section.post blockquote .author {
+  color: grey;
+  font-size: 70%;
+  font-style: italic;
+  margin: 0 0;
+  padding: 0 10%;
+}
+/* line 32, ../sass/partials/global/_mixins.scss */
+section.post blockquote .author:before {
+  content: ' - ';
+}
+/* line 23, ../sass/partials/layouts/_post-layout.scss */
+section.post blockquote .author p {
+  display: inline-block;
+  padding: 0;
+  margin: -7% 0 2%;
+}
+/* line 29, ../sass/partials/layouts/_post-layout.scss */
+section.post blockquote p:empty {
+  display: none;
 }
 
 /* line 1, ../sass/partials/layouts/_footer.scss */
@@ -2051,36 +2086,51 @@ aside.show-unless-medium .sidebar-post .sidebar-title-blurb .sidebar-slug {
   top: 50%;
   left: 25%;
 }
-/* line 28, ../sass/partials/components/_post.scss */
-.post-header .title.right {
-  width: 100%;
-  top: 50%;
-  left: 75%;
+@media (min-width: 20em) {
+  /* line 28, ../sass/partials/components/_post.scss */
+  .post-header .title.right {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+  }
 }
-/* line 33, ../sass/partials/components/_post.scss */
+@media (min-width: 33.75em) {
+  /* line 28, ../sass/partials/components/_post.scss */
+  .post-header .title.right {
+    width: 50%;
+    left: 25%;
+  }
+}
+@media (min-width: 48em) {
+  /* line 28, ../sass/partials/components/_post.scss */
+  .post-header .title.right {
+    left: 50%;
+  }
+}
+/* line 43, ../sass/partials/components/_post.scss */
 .post-header .title.center {
   width: 100%;
   top: 50%;
   left: 50%;
 }
-/* line 38, ../sass/partials/components/_post.scss */
+/* line 48, ../sass/partials/components/_post.scss */
 .post-header .title h1 {
   opacity: 1;
   font-weight: 300;
 }
 @media (min-width: 20em) {
-  /* line 38, ../sass/partials/components/_post.scss */
+  /* line 48, ../sass/partials/components/_post.scss */
   .post-header .title h1 {
     font-size: 2.5em;
   }
 }
 @media (min-width: 33.75em) {
-  /* line 38, ../sass/partials/components/_post.scss */
+  /* line 48, ../sass/partials/components/_post.scss */
   .post-header .title h1 {
     font-size: 3.5em;
   }
 }
-/* line 48, ../sass/partials/components/_post.scss */
+/* line 58, ../sass/partials/components/_post.scss */
 .post-header .title p.subline {
   color: #FFFFFF;
   opacity: 1;
@@ -2088,19 +2138,19 @@ aside.show-unless-medium .sidebar-post .sidebar-title-blurb .sidebar-slug {
   text-shadow: 2px 2px 0 black, 0 0 0 white, 1px 1px 0 black;
 }
 @media (min-width: 20em) {
-  /* line 48, ../sass/partials/components/_post.scss */
+  /* line 58, ../sass/partials/components/_post.scss */
   .post-header .title p.subline {
     font-size: 1.5em;
   }
 }
 @media (min-width: 33.75em) {
-  /* line 48, ../sass/partials/components/_post.scss */
+  /* line 58, ../sass/partials/components/_post.scss */
   .post-header .title p.subline {
     font-size: 1.75em;
   }
 }
 
-/* line 65, ../sass/partials/components/_post.scss */
+/* line 75, ../sass/partials/components/_post.scss */
 .post .first-paragraph p:first-child:first-letter {
   color: #000000;
   float: left;
@@ -2111,16 +2161,16 @@ aside.show-unless-medium .sidebar-post .sidebar-title-blurb .sidebar-slug {
   padding-right: 10px;
   padding-top: 6px;
 }
-/* line 75, ../sass/partials/components/_post.scss */
+/* line 85, ../sass/partials/components/_post.scss */
 .post .first-paragraph p:first-child {
   font-size: 115%;
 }
-/* line 78, ../sass/partials/components/_post.scss */
+/* line 88, ../sass/partials/components/_post.scss */
 .post .first-paragraph p {
   font-size: 110%;
 }
 
-/* line 87, ../sass/partials/components/_post.scss */
+/* line 97, ../sass/partials/components/_post.scss */
 .title.underneath p.subline {
   background: rgba(255, 255, 255, 0.3);
   color: white;
@@ -2131,7 +2181,7 @@ aside.show-unless-medium .sidebar-post .sidebar-title-blurb .sidebar-slug {
   position: absolute;
   right: 0.5%;
 }
-/* line 98, ../sass/partials/components/_post.scss */
+/* line 108, ../sass/partials/components/_post.scss */
 .title.underneath h1 {
   padding: 0% 1%;
   margin: 0;
