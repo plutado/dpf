@@ -32,11 +32,11 @@
         left: 50%;
       }
       @include breakpoint(min-width $post-small) {
-        width: 50%;
-        left: 25%;
+        left: 50%;
       }
       @include breakpoint(min-width $post-medium) {
         left: 50%;
+        text-align: right;
       }
 
     }
@@ -44,10 +44,15 @@
       width: 100%;
       top: 50%;
       left: 50%;
+      text-align: center;
     }
     h1 {
+      text-shadow: 2px 2px 0px black,
+      0px 0px 0px white,
+      1px 1px 0px black;
       opacity: 1;
-      font-weight: 300;
+      font-weight: 500;
+      line-height: 1;
       @include breakpoint(min-width $post-tiny) {
         font-size: 2.5em;
       }
@@ -59,6 +64,7 @@
       color: #FFFFFF;
       opacity: 1;
       font-weight: 300;
+      margin: 0;
       text-shadow: 2px 2px 0 black, 0 0 0 white, 1px 1px 0 black;
       @include breakpoint(min-width $post-tiny) {
         font-size: 1.5em;
@@ -68,7 +74,7 @@
       }
     }
   }
-}
+} // END post-header
 
 .post {
   .first-paragraph {

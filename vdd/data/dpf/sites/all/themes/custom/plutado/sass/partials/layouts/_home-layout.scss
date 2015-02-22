@@ -61,11 +61,6 @@
     font-weight: 500;
     font-size: 3.5em;
     margin: 0 auto;
-    /*
-    text-shadow: 2px 2px 0px black,
-    0px 0px 0px white,
-    1px 1px 0px black;
-    */
     opacity: 1;
   }
 
@@ -77,8 +72,7 @@
     //margin: 0 auto;
   }
 
-  .title h1,
-  .title p.subline {
+  .front .title p.subline {
     line-height: 1;
     @include breakpoint(min-width $home-post-item-grid-small) {
     }

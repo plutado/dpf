@@ -53,7 +53,7 @@
 
 </head>
 
-<body>
+<body class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 <?php if ($is_front) : ?>
   <div id="ip-container" class="ip-container">
