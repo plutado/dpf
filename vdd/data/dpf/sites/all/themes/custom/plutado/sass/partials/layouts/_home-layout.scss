@@ -46,10 +46,10 @@
     }
 
     @include breakpoint(min-width $home-post-item-grid-large) {
-      left: 27%;
+      // left: 27%;
       position: relative;
       top: 50%;
-      width: 77%;
+      width: 50%;
       z-index: -1;
     }
 
@@ -70,6 +70,7 @@
     font-weight: 300;
     font-size: 0.85em;
     //margin: 0 auto;
+    line-height: 1.2
   }
 
   .front .title p.subline {
