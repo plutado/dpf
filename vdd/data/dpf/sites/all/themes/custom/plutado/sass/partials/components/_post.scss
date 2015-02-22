@@ -23,7 +23,7 @@
     &.left {
       width: 100%;
       top: 50%;
-      left: 25%;
+      left: 50%;
     }
     &.right {
       @include breakpoint(min-width $post-tiny) {
@@ -112,8 +112,10 @@
       }
     }
     h1 {
-      padding: 0% 1%;
+      font-size: 3.75em;
+      font-weight: 500;
       margin: 0;
+      padding: 0 1%;
     }
   }
 }
